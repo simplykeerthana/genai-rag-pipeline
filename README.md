@@ -1,269 +1,193 @@
+
 # 🔍 RAG Knowledge Extraction System
 
-A powerful web-based system that extracts knowledge from websites using Retrieval-Augmented Generation (RAG). Ask questions about any website and get accurate answers with source citations.
-
-![RAG System](https://img.shields.io/badge/RAG-Knowledge%20Extraction-blue)
-![Python](https://img.shields.io/badge/Python-3.8+-green)
-![React](https://img.shields.io/badge/React-18.0+-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
-## 🎯 What Does This Do?
-
-This system allows you to:
-1. **Point it at any website** (e.g., documentation, blogs, news sites)
-2. **Ask questions** about the content
-3. **Get accurate answers** with citations showing exactly where the information came from
-
-### Example Use Cases
-- 📚 "What are the security risks mentioned on the OWASP site?"
-- 🔧 "How do I implement authentication according to this documentation?"
-- 📰 "What are the main points discussed in this article?"
-- 💡 "Summarize the key features described on this product page"
+Extract knowledge from websites using Retrieval-Augmented Generation (RAG). Ask questions about any website and get accurate answers with source citations.
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8 or higher
-- Node.js 16 or higher
-- 8GB RAM (minimum) for local models
-- 16GB RAM (recommended) for better performance
+- Python 3.8+
+- Node.js 16+
+- 8GB RAM (minimum)
 
-### Step 1: Clone the Repository
+### Installation
+
 ```bash
+# Clone repository
 git clone https://github.com/yourusername/gen-ai-OWASP-rag.git
 cd gen-ai-OWASP-rag
-```
 
-### Step 2: Set Up the Backend
-
-```bash
+# Backend setup
 cd backend
-
-# Create virtual environment
 python -m venv venv
-
-# Activate virtual environment
-# On macOS/Linux:
-source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
-
-# Install dependencies
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-```
 
-### Step 3: Download Models (For Local LLM)
-
-If you want to use local models (no API key required), you need to download them first:
-
-```bash
-# Run the model download script
+# Download models for local LLM
 python download_models.py
-```
 
-This script will:
-- Create a `models` directory
-- Download TinyLlama (1.1B parameters, ~670MB) for fast inference
-- Optionally download Mistral 7B for better quality (requires more RAM)
-
-**⚠️ Important**: If you skip this step, you can only use the Gemini API mode (requires API key).
-
-### Step 4: Set Up the Frontend
-
-```bash
+# Frontend setup
 cd ../frontend
-
-# Install dependencies
 npm install
 ```
 
-### Step 5: Run the Application
+### Run the Application
 
-**Terminal 1 - Start the Backend:**
+**Terminal 1:**
 ```bash
 cd backend
 python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
-**Terminal 2 - Start the Frontend:**
+**Terminal 2:**
 ```bash
 cd frontend
 npm start
 ```
 
-### Step 6: Open Your Browser
-Navigate to `http://localhost:3000`
+Open `http://localhost:3000` in your browser.
 
-## 💡 How to Use
+## 📸 Screenshots
 
-### Using Local Models (No API Key Required)
 
-1. Make sure you've run `download_models.py`
-2. In the UI, click "LLM Settings"
-3. Select "Local LLM"
-4. Choose your model:
-   - **TinyLlama**: Fast, lightweight (2-5 seconds response time)
-   - **Mistral 7B**: Better quality (10-30 seconds response time)
-5. Enter a website URL and your question
-6. Click "Submit Query"
 
-### Using Gemini API (Faster, Requires API Key)
+## 📋 API Usage
 
-1. Get a free API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. In the UI, click "LLM Settings"
-3. Select "Gemini API"
-4. Paste your API key
-5. Enter a website URL and your question
-6. Click "Submit Query"
+### Using Local LLM (No API Key Required)
 
-## 📋 Example Queries
+```bash
+curl -X POST "http://localhost:8000/ask" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What are the main security risks in generative AI?",
+    "url": "https://genai.owasp.org"
+  }'
+```
 
-Try these examples to see the system in action:
+![image](https://github.com/user-attachments/assets/35ed6429-8297-4d9f-af57-07ba4fe422da)
 
-### Example 1: Security Analysis
-- **URL**: `https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html`
-- **Query**: "What are the best practices for password storage?"
+This run on local llm on mps gpu. 
 
-### Example 2: Documentation Search
-- **URL**: `https://react.dev/learn`
-- **Query**: "How do I manage state in React?"
+![image](https://github.com/user-attachments/assets/a6a64c3b-b68c-46c8-a680-5348b0c4f2d7)
 
-### Example 3: News Summary
-- **URL**: `https://techcrunch.com`
-- **Query**: "What are the latest AI announcements?"
 
-## 🛠️ Configuration Options
+Here is UI version of running it on local LLM
 
-### Basic Configuration
+![image](https://github.com/user-attachments/assets/08dd3d3b-a603-4ad0-be14-a886c5af67bb)
+
+The results of it, including the chunks it was 
+
+
+
+https://github.com/user-attachments/assets/a07538bc-87d7-4d7c-8892-ff45500a0d79
+
+
+
+
+
+
+### Using Gemini API (API Key Required)
+
+```bash
+curl -X POST "http://localhost:8000/ask" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What are the main security risks in generative AI?",
+    "url": "https://genai.owasp.org",
+    "llm_mode": "gemini",
+    "api_key": "AIzaSyD7oqlfEIVqA5MN94o36JhvjCDOWKJ4nt8"
+  }'
+```
+
+![Pasted Graphic copy](https://github.com/user-attachments/assets/66e72124-c82d-4623-9a29-3e7ebc353349)
+
+Here is the UI version of running it on 
+
+<img width="1227" alt="image" src="https://github.com/user-attachments/assets/3ad01be3-96f0-4404-b50a-f106054a04e8" />
+
+The results of it 
+
+
+
+https://github.com/user-attachments/assets/107b96d5-caa1-471d-8e30-d0e0883ad61f
+
+
+
+
+### Advanced Options
+
+```bash
+# Force refresh cache and limit crawling
+curl -X POST "http://localhost:8000/ask" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What authentication methods are recommended?",
+    "url": "https://cheatsheetseries.owasp.org",
+    "force_refresh": true,
+    "max_pages": 10,
+    "max_depth": 1,
+    "top_k": 3
+  }'
+```
+
+### Check Cache Status
+
+```bash
+# Get cache information
+curl -X GET "http://localhost:8000/cache/info"
+
+# Clear cache for specific URL
+curl -X POST "http://localhost:8000/cache/clear?url=https://genai.owasp.org"
+
+# Clear all cache
+curl -X POST "http://localhost:8000/cache/clear"
+```
+
+### Health Check
+
+```bash
+curl -X GET "http://localhost:8000/health"
+```
+
+## 📊 Request Parameters
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `query` | string | required | Your question about the website |
+| `url` | string | required | Website URL to analyze |
+| `api_key` | string | optional | Gemini API key (if provided, uses API mode) |
+| `force_refresh` | boolean | false | Bypass cache and re-crawl |
+| `max_pages` | integer | 30 | Maximum pages to crawl |
+| `max_depth` | integer | 2 | How deep to follow links |
+| `top_k` | integer | 5 | Number of relevant chunks to retrieve |
+| `llm_mode` | string | "transformers" | LLM to use ("local" or "transformers") |
+| `embedding_model` | string | "bge-base" | Embedding model for semantic search |
+
+## 🔧 Configuration
 
 Edit `backend/app/config.py`:
 
 ```python
-# Choose default LLM mode
-LLM_MODE = "transformers"  # Options: "local", "transformers", "gemini"
+# Default LLM mode (when no API key provided)
+LLM_MODE = "transformers"  # or "local" for TinyLlama
 
-# Crawling settings
-MAX_PAGES = 30  # Maximum pages to crawl per website
-MAX_DEPTH = 2   # How deep to follow links
-
-# Model paths (set by download_models.py)
+# Model paths
 LOCAL_MODEL_PATH = "models/TinyLlama-1.1B-Chat-v1.0.Q4_K_M.gguf"
 TRANSFORMER_MODEL_PATH = "models/mistral-7b-instruct-v3"
 ```
 
-### Advanced Settings
+## 🏗️ How It Works
 
-```python
-# Embedding model for semantic search
-EMBEDDING_MODEL = "bge-base"  # Options: "bge-small" (fast), "bge-large" (accurate)
-
-# Cache settings
-CACHE_MAX_AGE_HOURS = 24  # How long to cache website content
-
-# Chunk settings for text splitting
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 50
-```
-
-## 🏗️ System Architecture
-
-```
-User Interface (React)
-        ↓
-    REST API (FastAPI)
-        ↓
-    RAG Pipeline
-    ├── Web Crawler (BeautifulSoup)
-    ├── Text Splitter (LangChain)
-    ├── Embeddings (HuggingFace)
-    ├── Vector Store (FAISS)
-    └── LLM (Local or API)
-```
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**"Model not found" Error**
-- Run `python download_models.py` to download required models
-- Check that the `models` directory exists in the backend folder
-
-**"Out of Memory" Error**
-- Use TinyLlama instead of Mistral 7B
-- Close other applications to free up RAM
-- Consider using Gemini API instead
-
-**"Cannot connect to backend"**
-- Ensure the backend is running on port 8000
-- Check firewall settings
-- Try `http://localhost:8000` in your browser
-
-**Slow Response Times**
-- First-time model loading takes 10-30 seconds
-- Subsequent queries are faster (models stay in memory)
-- Use Gemini API for fastest responses
-
-### Debug Mode
-
-Check backend logs in the terminal for detailed information:
-```
-INFO:     Starting web crawl...
-INFO:     Found 15 pages to index
-INFO:     Creating embeddings...
-INFO:     Searching for relevant content...
-INFO:     Generating answer...
-```
-
-## 📦 Project Structure
-
-```
-gen-ai-OWASP-rag/
-├── backend/
-│   ├── app/
-│   │   ├── main.py              # FastAPI server
-│   │   ├── rag_pipeline.py      # Core RAG logic
-│   │   ├── llm_router.py        # LLM management
-│   │   ├── vector_store.py      # Vector search
-│   │   └── config.py            # Configuration
-│   ├── models/                  # Downloaded models (created by script)
-│   ├── requirements.txt         # Python dependencies
-│   └── download_models.py       # Model download script
-├── frontend/
-│   ├── src/
-│   │   ├── App.jsx             # React UI
-│   │   └── App.css             # Styles
-│   └── package.json            # Node dependencies
-└── README.md                   # This file
-```
-
-## 🔒 Privacy & Security
-
-- **Local Mode**: All processing happens on your machine. No data is sent to external servers.
-- **API Mode**: Queries and website content are sent to Google's Gemini API.
-- **Caching**: Crawled content is cached locally to improve performance.
-- **No Tracking**: The application doesn't collect or store any usage data.
+1. **Crawl** - Discovers and downloads pages from the target website
+2. **Chunk** - Splits content into manageable pieces
+3. **Embed** - Creates vector embeddings for semantic search
+4. **Search** - Finds the most relevant chunks for your query
+5. **Generate** - Uses LLM to create a comprehensive answer
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Pull requests are welcome! Please check existing issues first.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- [LangChain](https://langchain.com/) for the RAG framework
-- [FAISS](https://github.com/facebookresearch/faiss) for vector search
-- [Hugging Face](https://huggingface.co/) for models and embeddings
-- [OWASP](https://owasp.org/) for security best practices
-
----
-
-**Need Help?** Open an issue on GitHub or check the [Discussions](https://github.com/yourusername/gen-ai-OWASP-rag/discussions) page.
+MIT License - see [LICENSE](LICENSE) file for details.
