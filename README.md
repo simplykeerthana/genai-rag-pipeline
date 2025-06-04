@@ -184,9 +184,32 @@ TRANSFORMER_MODEL_PATH = "models/mistral-7b-instruct-v3"
 4. **Search** - Finds the most relevant chunks for your query
 5. **Generate** - Uses LLM to create a comprehensive answer
 
+Sure! Here’s your contribution guide written in Markdown format:
+
 ## 🤝 Contributing
 
-Pull requests are welcome! Please check existing issues first.
+Contributions are welcome! Please follow these steps:
+
+1. **Fork** the repository
+2. **Create a feature branch**  
+   ```bash
+   git checkout -b feature/amazing-feature
+
+	3.	Commit your changes
+
+git commit -m 'Add amazing feature'
+
+
+	4.	Push to the branch
+
+git push origin feature/amazing-feature
+
+
+	5.	Open a Pull Request on GitHub
+
+Thank you for your contributions! 🙌
+
+Let me know if you want to include linting or PR guidelines too.
 
 ## 📄 License
 
