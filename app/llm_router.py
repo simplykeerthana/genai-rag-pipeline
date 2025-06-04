@@ -5,38 +5,43 @@ import sys
 import json
 import requests
 
-# Global variables
+# Global variables - models will be loaded only when needed
 response_format = "text"
 model = None
 tokenizer = None
 llm = None
+device = None
 
-# Initialize LLM based on mode
-print(f"[LLM_ROUTER] Initializing with mode: {LLM_MODE}")
+# Remove the initialization code - we'll load models on demand
+print(f"[LLM_ROUTER] Initialized with default mode: {LLM_MODE}")
 
-if LLM_MODE == "local":
+def load_local_model():
+    """Load local GGUF model on demand"""
+    global llm
+    
+    if llm is not None:
+        return True  # Already loaded
+        
     try:
+        print("[LLM_ROUTER] Loading local LLaMA model...")
         from llama_cpp import Llama
         llm = Llama(model_path=LOCAL_MODEL_PATH, n_ctx=2048, n_threads=4)
         print("[LLM_ROUTER] Local LLaMA model loaded successfully")
+        return True
     except Exception as e:
         print(f"[LLM_ROUTER] Error loading local model: {e}")
         llm = None
+        return False
+
+def load_transformer_model():
+    """Load transformer model on demand"""
+    global model, tokenizer, device
     
-elif LLM_MODE == "openai":
-    try:
-        import openai
-        openai.api_key = OPENAI_API_KEY
-        print("[LLM_ROUTER] OpenAI configured")
-    except Exception as e:
-        print(f"[LLM_ROUTER] Error configuring OpenAI: {e}")
+    if model is not None and tokenizer is not None:
+        return True  # Already loaded
         
-elif LLM_MODE == "gemini":
-    # Gemini doesn't need initialization, just API key
-    print("[LLM_ROUTER] Gemini API configured")
-    
-elif LLM_MODE == "transformers":
     try:
+        print("[LLM_ROUTER] Loading transformer model...")
         import torch
         from transformers import AutoTokenizer, AutoModelForCausalLM
         
@@ -90,20 +95,29 @@ elif LLM_MODE == "transformers":
         actual_device = first_param.device
         print(f"[LLM_ROUTER] Model loaded successfully on: {actual_device}")
         
+        return True
+        
     except Exception as e:
         print(f"[LLM_ROUTER] Error loading transformer model: {e}")
         import traceback
         traceback.print_exc()
         model = None
         tokenizer = None
+        return False
 
 def generate_response(prompt: str, max_length: int = 500, mode: str = None, api_key: str = None) -> str:
     """Generate response using configured LLM"""
     
     current_mode = mode or LLM_MODE
     
+    print(f"[LLM_ROUTER] Generating response using mode: {current_mode}")
+    
     try:
-        if current_mode == "local" and llm:
+        if current_mode == "local":
+            # Load model on demand
+            if not load_local_model():
+                return "Error: Failed to load local LLaMA model"
+                
             output = llm(prompt, max_tokens=max_length, temperature=0.7)
             return output["choices"][0]["text"].strip()
             
@@ -136,6 +150,8 @@ def generate_response(prompt: str, max_length: int = 500, mode: str = None, api_
             
             if not gemini_key or gemini_key == "your-openai-or-gemini-api-key-here":
                 return "Error: Gemini API key not configured"
+            
+            print(f"[LLM_ROUTER] Using Gemini API (no local model loading needed)")
             
             # Gemini API endpoint
             url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent?key={gemini_key}"
@@ -182,7 +198,11 @@ def generate_response(prompt: str, max_length: int = 500, mode: str = None, api_
                     error_msg += f" - {response.text}"
                 return error_msg
                 
-        elif current_mode == "transformers" and model and tokenizer:
+        elif current_mode == "transformers":
+            # Load model on demand
+            if not load_transformer_model():
+                return "Error: Failed to load transformer model"
+                
             import torch
             
             # Get device from model
@@ -229,10 +249,38 @@ def generate_response(prompt: str, max_length: int = 500, mode: str = None, api_
             return response
             
         else:
-            return f"Error: LLM not properly initialized for mode {current_mode}"
+            return f"Error: Unknown LLM mode '{current_mode}'"
             
     except Exception as e:
         print(f"[LLM_ROUTER] Error generating response: {e}")
         import traceback
         traceback.print_exc()
         return f"Error generating response: {str(e)}"
+
+def unload_models():
+    """Unload models to free memory (optional utility function)"""
+    global model, tokenizer, llm
+    
+    print("[LLM_ROUTER] Unloading models...")
+    
+    if model is not None:
+        del model
+        model = None
+        
+    if tokenizer is not None:
+        del tokenizer
+        tokenizer = None
+        
+    if llm is not None:
+        del llm
+        llm = None
+        
+    # Try to free GPU memory if using CUDA
+    try:
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except:
+        pass
+        
+    print("[LLM_ROUTER] Models unloaded")
