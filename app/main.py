@@ -32,8 +32,8 @@ class QueryRequest(BaseModel):
     max_pages: Optional[int] = 30
     max_depth: Optional[int] = 2
     top_k: Optional[int] = 5
-    llm_model: Optional[str] = None  # New field
-    api_key: Optional[str] = None    # New field
+    llm_mode: Optional[str] = "transformers"  # New field for LLM selection
+    api_key: Optional[str] = None  # New field for API key
 
 # Global log storage for current request
 current_logs: List[dict] = []
@@ -64,51 +64,8 @@ async def root():
             "ask": "POST /ask - Submit a query",
             "health": "GET /health - Health check",
             "cache_info": "GET /cache/info - Get cache information",
-            "clear_cache": "POST /cache/clear - Clear cache",
-            "models": "GET /models - Get available models"
+            "clear_cache": "POST /cache/clear - Clear cache"
         }
-    }
-
-@app.get("/models")
-async def get_models():
-    """Get available LLM models"""
-    from app.config import LLM_MODE, TRANSFORMER_MODEL_PATH
-    import os
-    
-    models = {
-        "local": [],
-        "api": []
-    }
-    
-    # Check local models
-    if os.path.exists(TRANSFORMER_MODEL_PATH):
-        model_name = os.path.basename(TRANSFORMER_MODEL_PATH)
-        models["local"].append({
-            "id": "transformers",
-            "name": f"Local: {model_name}",
-            "description": "Local transformer model using MPS/GPU",
-            "requires_api_key": False
-        })
-    
-    # API models
-    models["api"] = [
-        {
-            "id": "gemini",
-            "name": "Google Gemini 2.0 Flash",
-            "description": "Fast, efficient API model from Google",
-            "requires_api_key": True
-        },
-        {
-            "id": "openai",
-            "name": "OpenAI GPT-3.5 Turbo",
-            "description": "OpenAI's fast chat model",
-            "requires_api_key": True
-        }
-    ]
-    
-    return {
-        "current_mode": LLM_MODE,
-        "models": models
     }
 
 @app.post("/ask")
@@ -122,12 +79,7 @@ async def ask(request: QueryRequest):
     capture_log(f"Target URL: {request.url}")
     capture_log(f"Settings: max_pages={request.max_pages}, max_depth={request.max_depth}, top_k={request.top_k}")
     capture_log(f"Embedding model: {request.embedding_model}")
-    
-    # Log LLM model selection
-    if request.llm_model:
-        capture_log(f"LLM model: {request.llm_model}")
-        if request.llm_model in ["gemini", "openai"]:
-            capture_log(f"Using API model: {request.llm_model}")
+    capture_log(f"LLM mode: {request.llm_mode}")  # Log LLM mode
     
     # Handle cache clearing if force refresh requested
     if request.force_refresh:
@@ -139,7 +91,7 @@ async def ask(request: QueryRequest):
             capture_log(f"Warning: Could not clear cache: {e}", "WARNING")
     
     try:
-        # Run the RAG pipeline with model selection
+        # Run the RAG pipeline with LLM configuration
         result = run_rag_pipeline(
             query=request.query,
             url=request.url,
@@ -149,8 +101,8 @@ async def ask(request: QueryRequest):
             max_pages=request.max_pages,
             max_depth=request.max_depth,
             top_k=request.top_k,
-            llm_model=request.llm_model,  # Pass model selection
-            api_key=request.api_key        # Pass API key if provided
+            llm_mode=request.llm_mode,  # Pass LLM mode
+            api_key=request.api_key  # Pass API key
         )
         
         # Add logs to response
@@ -234,6 +186,137 @@ async def options_ask():
 async def options_cache_clear():
     return {"message": "OK"}
 
+@app.post("/debug/ask")
+async def debug_ask(request: QueryRequest):
+    """Debug endpoint that returns raw data at each stage"""
+    global current_logs
+    current_logs = []
+    
+    debug_data = {
+        "request": request.dict(),
+        "stages": {},
+        "logs": []
+    }
+    
+    try:
+        # Stage 1: URL Discovery
+        capture_log("Stage 1: URL Discovery", "DEBUG")
+        from app.rag_pipeline import discover_urls_by_crawling
+        
+        urls = discover_urls_by_crawling(
+            request.url, 
+            max_pages=request.max_pages, 
+            max_depth=request.max_depth,
+            log_func=capture_log
+        )
+        
+        debug_data["stages"]["url_discovery"] = {
+            "urls_found": len(urls),
+            "urls": urls[:10]  # First 10 URLs
+        }
+        
+        # Stage 2: Content Loading
+        capture_log("Stage 2: Content Loading", "DEBUG")
+        from langchain_community.document_loaders import WebBaseLoader
+        
+        if urls:
+            loader = WebBaseLoader(urls[:3])  # Load first 3 for debug
+            docs = loader.load()
+            
+            debug_data["stages"]["content_loading"] = {
+                "docs_loaded": len(docs),
+                "sample_doc": {
+                    "url": docs[0].metadata.get('source', '') if docs else '',
+                    "content_length": len(docs[0].page_content) if docs else 0,
+                    "content_preview": docs[0].page_content[:500] if docs else '',
+                    "raw_content_sample": repr(docs[0].page_content[:200]) if docs else '',
+                    "metadata": docs[0].metadata if docs else {}
+                } if docs else None
+            }
+        
+        # Stage 3: Vector Store Search
+        capture_log("Stage 3: Vector Store Search", "DEBUG")
+        from app.vector_store import build_or_load_vector_store
+        
+        # Try to load existing vector store
+        vector_store = build_or_load_vector_store(
+            docs=[],  # Empty to just load
+            url=request.url,
+            force_rebuild=False,
+            model_key=request.embedding_model,
+            log_func=capture_log
+        )
+        
+        if vector_store:
+            results = vector_store.similarity_search_with_score(request.query, k=request.top_k)
+            
+            debug_data["stages"]["vector_search"] = {
+                "results_found": len(results),
+                "results": [
+                    {
+                        "score": float(score),
+                        "source_url": doc.metadata.get('source_url', ''),
+                        "chunk_id": doc.metadata.get('chunk_id', 0),
+                        "content_length": len(doc.page_content),
+                        "content_preview": doc.page_content[:200],
+                        "raw_content": repr(doc.page_content[:100]),
+                        "metadata": doc.metadata
+                    }
+                    for doc, score in results
+                ]
+            }
+            
+            # Stage 4: Context Building
+            context_parts = []
+            for i, (doc, score) in enumerate(results):
+                context_parts.append(f"[Source {i+1}: {doc.metadata.get('source_url', 'unknown')}]")
+                context_parts.append(doc.page_content)
+                context_parts.append("")
+            
+            context = "\n".join(context_parts)
+            
+            debug_data["stages"]["context_building"] = {
+                "context_length": len(context),
+                "context_preview": context[:500],
+                "raw_context": repr(context[:200])
+            }
+            
+            # Stage 5: LLM Generation
+            capture_log("Stage 4: LLM Generation", "DEBUG")
+            prompt = f"Based on the context below, answer: {request.query}\n\nContext:\n{context[:2000]}"
+            
+            debug_data["stages"]["llm_generation"] = {
+                "prompt_length": len(prompt),
+                "prompt_preview": prompt[:500],
+                "prompt_full": prompt,
+                "llm_mode": request.llm_mode  # Include LLM mode in debug
+            }
+            
+            from app.llm_router import generate_response
+            try:
+                # Use LLM mode and API key from request
+                answer = generate_response(
+                    prompt, 
+                    max_length=300,
+                    mode=request.llm_mode,
+                    api_key=request.api_key
+                )
+                debug_data["stages"]["llm_generation"]["response"] = {
+                    "answer": answer,
+                    "answer_length": len(answer),
+                    "raw_answer": repr(answer)
+                }
+            except Exception as e:
+                debug_data["stages"]["llm_generation"]["error"] = str(e)
+        
+        debug_data["logs"] = current_logs
+        return debug_data
+        
+    except Exception as e:
+        debug_data["error"] = str(e)
+        debug_data["logs"] = current_logs
+        return debug_data
+
 if __name__ == "__main__":
     # Run the server
     uvicorn.run(
@@ -242,3 +325,30 @@ if __name__ == "__main__":
         port=8000,
         log_level="info"
     )
+
+    @app.post("/test/gemini")
+    async def test_gemini(api_key: str):
+        """Test endpoint to verify Gemini API"""
+        from app.llm_router import generate_response
+        
+        test_prompt = "Say 'Gemini is working!' if you receive this."
+        
+        try:
+            response = generate_response(
+                prompt=test_prompt,
+                max_length=100,
+                mode="gemini",
+                api_key=api_key
+            )
+            
+            return {
+                "success": "Gemini is working" in response,
+                "response": response,
+                "message": "API key is valid!" if "Gemini is working" in response else "Check the response"
+            }
+        except Exception as e:
+            return {
+                "success": False,
+                "error": str(e),
+                "message": "API key may be invalid or there's a connection issue"
+            }
