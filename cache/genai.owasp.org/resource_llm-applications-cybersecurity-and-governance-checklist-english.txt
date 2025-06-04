@@ -1,0 +1,83 @@
+LLM Applications Cybersecurity and Governance Checklist v1.1 - English - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+resources
+Whitepapers/Guides
+LLM Applications Cybersecurity and Governance Checklist v1.1 – English
+May 7, 2024
+About
+The OWASP Top 10 for LLM Applications Cybersecurity and Governance Checklist is for leaders across executive, tech, cybersecurity, privacy, compliance, and legal areas, DevSecOps, MLSecOps, and Cybersecurity teams and defenders. It is intended for people who are striving to stay ahead in the fast-moving AI world, aiming not just to leverage AI for corporate success but also to protect against the risks of hasty or insecure AI implementations. These leaders and teams must create tactics to grab opportunities, combat challenges, and mitigate risks.
+Download
+Additional Resources
+May 14, 2025
+Publications
+Agent Name Service (ANS) for Secure Al Agent Discovery v1.0
+April 23, 2025
+Publications
+Multi-Agentic system Threat Modeling Guide v1.0
+March 12, 2025
+Resources
+OWASP Top 10 для LLM и генеративного ИИ (2025)
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top

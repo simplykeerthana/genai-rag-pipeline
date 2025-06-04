@@ -1,0 +1,114 @@
+Contribute - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+Project
+Contribute
+How to Contribute?
+The OWASP Top 10 for LLM Applications is an open source effort and we welcome all expert ideas, contributions, suggestions, and remarks.
+.
+Where to start
+Read the project
+Charter
+Read the
+Feedback
+to learn more about the different Slack channels, leads for each channel, and how to report an issue.
+Read through the previous discussions to learn more about what we are doing and where you may contribute.
+Check out the
+project Wiki
+for more details.
+Join our BiWeekly Sync
+Meeting Calendar
+meeting
+Watch previous meetings hosted on our
+YouTube
+older meetings
+here
+Join the expert team’s
+Slack Channel
+and engage in the discussion
+Join our main channel
+#project-top10-for-llm
+for general project discussions on the LLM Top 10
+Join our
+#team-llm-discuss
+channel to sharing relevant links & posts about LLM security (not necessarily Top-10 related)
+Join the
+#team-llm-*
+channels for deeper discussions on individual Top-10 entries
+Benefits of  a Global Community
+Many hands make light work
+Collaborate with awesome people
+Flex your skills
+Support for your ideas
+Where we could use your help
+Translation
+Publishing
+Data Gathering
+Web site
+OWASP Top 10 for LLM Applications Cybersecurity and Governance Checklist
+Do you need to be an OWASP Member to contribute
+No, you do not need to be an OWASP member to contribute. But it’s a great community that benefits a large audience and we encourage you to
+join!
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top

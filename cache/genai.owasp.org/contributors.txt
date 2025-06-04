@@ -1,0 +1,889 @@
+Contributors - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI SECURITY
+Project
+LEADERSHIP
+Leadership & Contributors
+Project Leadership Team
+Board of Directors
+Steve Wilson
+Board Co-chair, Top 10 for LLM Project Founder
+Scott Clinton
+Board Co-chair, Strategy, Operations, Marketing
+Sandy Dunn
+Board Member, Gen AI Governance Initiative
+John Sotiropoulos
+Board Member, Standards Alignment, Agentic Security co-lead
+Ads Dawson
+Board Member, Technical Lead
+Initiative Leads
+Scott Clinton
+Gen AI Security Solutions
+Secure AI Adoption
+Sandy Dunn
+Gen AI Governance
+Rachel James
+Gen AI Threat Intelligence
+Krishna Sankar
+Red Teaming
+John Sotiropoulos
+Agentic Security (ASI)
+Emmanuel Guilherme, Jr.
+Risk & Data Gathering
+Core Team Members
+Andy Smith
+Entry Lead
+Aruneesh Salhotra
+Entry Lead
+Aubrey King
+Social Media Lead
+Bryan Nakayama
+Expert Contributor, Initiative co-lead
+Emmanuel Guilherme, Jr.
+2.0 Methodology Lead
+Eugene Neelou
+Expert
+Fabrizio Cilli
+Expert
+Heather Linn
+Entry Lead
+Itamar Golan
+Expert
+Jason Ross
+Expert
+Ken Huang
+Entry Lead
+Krishna Sankar
+Expert
+Leon Derczynski
+Expert
+Rachel James
+Expert Contributor
+Ron F. Del Rosario
+Co-Lead, Agentic Security Initiative
+Talesh Seeparsan
+Localization and Language Translation
+Tetsuo Seto
+Expert, Publishing Lead
+Vinnie Giarrusso
+Expert
+Will Chilcutt
+Expert
+Project Contributors
+Individual Project Contributors, Experts and Supporters
+List below updated as of November 23rd 2024
+If you’d like to show your support and affiliation for this project, please add your name and information to the contributor
+Wiki
+.
+tr>Ron F. Del Rosario
+SAP
+LinkedIn
+Name
+Organization
+Personal Links
+Vishwas Manral
+Precize
+LinkedIn
+,
+GitHub
+Ravi Singh
+AddValueMachine Inc
+LinkedIn
+Fernando Calderon
+Unit42 Palo Alto Networks
+Mohit Yadav
+Hilton Worldwide Holdings Inc.
+LinkedIn
+Jeff Williams
+Contrast Security
+LinkedIn
+,
+Twitter
+, GitHub
+Leon Derczynski
+U Washington
+,
+IT University Copenhagen
+LinkedIn
+,
+Twitter
+,
+Github
+Reza Rashidi
+HADESS
+LinkedIn
+,
+GitHub
+Brian Pendleton
+AVID
+LinkedIn
+Guillaume Ehinger
+Google
+LinkedIn
+Ron F. Del Rosario
+SAP
+LinkedIn
+Nathan Hamiel
+Kudelski Security
+LinkedIn
+,
+Twitter
+,
+Mastodon
+Avinash Sinha
+GE HealthCare
+LinkedIn
+Leonardo Shikida
+IBM
+LinkedIn
+James Rabe
+IriusRisk
+LinkedIn
+Will Chilcutt
+Yahoo
+LinkedIn
+,
+Twitter
+Parveen Yadav
+Hackerone
+LinkedIn
+,
+Twitter
+Amay Trivedi
+LinkedIn
+,
+Github
+Sarah Thornton
+Red Hat
+LinkedIn
+,
+Github
+Andy Dyrcz
+Linkfire
+LinkedIn
+,
+Github
+Andy Smith
+LinkedIn
+,
+Twitter
+,
+Bio
+Idan Hen
+Microsoft
+Rich Harang
+LinkedIn
+,
+Twitter
+Manjesh S
+HackerOne
+LinkedIn
+,
+Twitter
+Patrick Biyaga
+See-Docs & Thenavigo
+LinkedIn
+,
+Twitter
+,
+GitHub
+, [Book]
+David Taylor
+(Independent)
+LinkedIn
+Emanuel Valente
+iFood
+LinkedIn
+,
+Twitter
+,
+GitHub
+Andrew Amaro
+Klavan Security Group
+LinkedIn
+Mike Finch
+Praetorian
+LinkedIn
+,
+Twitter
+,
+Personal
+Rahul Zhade
+GitHub
+GitHub
+,
+LinkedIn
+,
+Mastodon
+Ananda Krishna
+Astra Security
+LinkedIn
+Andrea Succi
+LinkedIn
+,
+Twitter
+,
+Personal
+Nir Paz
+LinkedIn
+,
+Twitter
+,
+Bluesky
+Jinson Varghese Behanan
+Astra Security
+LinkedIn
+,
+Twitter
+, GitHub,
+Website
+Eugene Tawiah
+Complex Technologies
+LinkedIn
+,
+GitHub
+,
+Personal
+Dr. Matteo Große-Kampmann
+AWARE7 GmbH
+LinkedIn
+,
+GitHub
+,
+Personal
+Bilal Siddiqui
+Trustwave SpiderLabs
+LinkedIn
+,
+Personal
+Eugene Neelou
+LinkedIn
+,
+Twitter
+Ken Arora
+F5
+LinkedIn
+,
+Github
+Larry Carson
+LinkedIn
+Jason Haddix
+BuddoBot
+LinkedIn
+Itamar Golan
+Prompt Security
+LinkedIn
+,
+GitHub
+,
+Twitter
+GTKlondike
+AI Village
+Twitter
+,
+YouTube
+,
+Personal
+Lior Drihem
+Prompt Security
+LinkedIn
+Otto Sulin
+Nordic Venture Family
+LinkedIn
+,
+GitHub
+,
+Twitter
+Ken Huang
+DistributedApps.ai
+LinkedIn
+,
+GitHub
+,
+Twitter
+John Sotiropoulos
+Kainos
+LinkedIn
+,
+GitHub
+,
+Twitter
+Dan Frommer
+LinkedIn
+Aleksei Ryzhkov
+EPAM
+LinkedIn
+Vandana Verma Sehgal
+Snyk
+LinkedIn
+Rachit Sood
+LinkedIn
+,
+GitHub
+,
+Medium
+Ashish Rajan
+Cloud Security Podcast
+LinkedIn
+,
+GitHub
+,
+Twitter
+,
+YouTube
+Adrian Culley
+Trellix
+linkedin
+Priyadharshini Parthasarathy
+Coalfire
+linkedin
+Aliaksei Bialko
+EPAM
+Linkedin
+Kelvin Low
+aigos
+LinkedIn
+Jason Ross
+Salesforce
+LinkedIn
+,
+Blog
+Joshua Nussbaum
+LinkedIn
+,
+Fediverse
+Santosh Kumar
+Cisco
+LinkedIn
+,
+Twitter
+Omar Santos
+Cisco
+LinkedIn
+,
+Twitter
+,
+GitHub
+,
+Blog
+Vinay Vishwanatha
+Sprinklr
+LinkedIn
+Alexander Zai
+Twitter
+Vladimir Fedotov
+EPAM
+LinkedIn
+Emmanuel Guilherme Junior
+LinkedIn
+Brodie McRae
+AWS
+LinkedIn
+Jason Axley
+AWS
+Fediverse
+Mike Jang
+Forescout
+LinkedIn
+Ross Moore
+Security Researcher and Writer
+LinkedIn
+Nipun Gupta
+Bearer
+LinkedIn
+,
+Twitter
+,
+GitHub
+Adesh Gairola
+AWS
+LinkedIn
+Stefano Amorelli
+LinkedIn
+,
+Website
+Cassio Goldschmidt
+ServiceTitan
+LinkedIn
+Dan Klein
+Accenture
+LinkedIn
+Golan Yosef
+Pynt
+LinkedIn
+Jorge Pinto
+LinkedIn
+Bajram Hoxha
+Databook
+LinkedIn
+Johann Rehberger
+LinkedIn
+,
+Twitter
+,
+GitHub
+,
+Blog
+Talesh Seeparsan
+Bit79
+LinkedIn
+,
+Twitter
+,
+GitHub
+Adam Swanda
+LinkedIn
+,
+GitHub
+,
+Blog
+Gaurav “GP” Pal
+stackArmor
+LinkedIn
+,
+GitHub
+,
+Blog
+Dotan Nahum
+Check Point
+LinkedIn
+,
+Twitter
+, GitHub
+Bob Simonoff
+Blue Yonder
+LinkedIn
+Chadd Watson
+LinkedIn
+,
+Twitter
+Aubrey King
+F5 DevCentral
+LinkedIn
+,
+Twitter
+Manish Kumar Yadav
+SAP
+LinkedIn
+,
+Twitter
+Helen Oakley
+SAP
+LinkedIn
+Bakr Abdouh
+ai informatics GmbH
+LinkedIn
+Felix Simmons
+GuidePoint Security
+LinkedIn
+Abubakkar khan Fazla Rabbi
+Security Researcher
+LinkedIn
+,
+Twitter
+Manojava Bharadwaj Bhagavathula
+LinkedIn
+Ravi Bhandia
+LinkedIn
+Ravin Thambapillai
+Credal.ai
+LinkedIn
+Shali Mor
+LinkedIn
+Jenn Slawson
+FedEx
+LinkedIn
+Ophir Dror
+LinkedIn
+,
+Twitter
+Alycia DuBry
+LinkedIn
+Sanket Naik
+Palosade
+LinkedIn
+Mehdi Karimi
+LinkedIn
+Sandy Dunn
+LinkedIn
+Riotaro OKADA
+OWASP JAPAN
+,
+Asterisk Research
+LinkedIn
+,
+X(exTwitter)
+, GitHub,
+SpeakerDeck
+Hiroaki Kuramochi
+LAC
+LinkedIn
+Natsu Ooke
+Aeye Security Lab Inc.
+GitHub
+Koichiro Watanabe
+Microsoft
+LinkedIn
+,
+Twitter
+, GitHub
+Yusuke Karasawa
+Japan Digital Design, Inc.
+LinkedIn
+,
+X(exTwitter)
+,
+GitHub
+Akitsugu Ito
+LinkedIn
+,
+X(exTwitter)
+,
+GitHub
+Anurag Pal
+Balbix
+LinkedIn
+Oleksandr Yaremchuk
+LLM Guard
+LinkedIn
+Neal Swaelens
+LLM Guard
+LinkedIn
+Chie Tazawa
+BroadBand Security, Inc.
+Bar Lanyado
+LinkedIn
+,
+Twitter
+Nicholas Grove
+Security, AI,
+Microsoft
+LinkedIn
+, GitHub
+Manuel S. Lemos
+BeDisruptive
+,
+ANBAN
+Twitter
+,
+LinkedIn
+,
+MyPublicInbox
+,
+GitHub
+Jeremy McHugh
+Preamble
+LinkedIn
+,
+Twitter
+Jon Cefalu
+Preamble
+LinkedIn
+John Whalen
+LinkedIn
+Ash Rahimian
+AWS Security
+LinkedIn
+Prasad Kethana
+Cadea
+LinkedIn
+,
+Twitter
+Manish Agnihotri
+Legato
+LinkedIn
+,
+Twitter
+Pambos Charalambous
+GFT
+LinkedIn
+Tetsuo Seto
+GitHub
+,
+Substack
+Rubens Zimbres
+Website
+,
+LinkedIn
+Google Developers
+Micheal Troutman
+Nexus
+LinkedIn
+Fabrizio Cilli
+LinkedIn
+Shankar Krishnan
+PromptArmor
+LinkedIn
+Vikram Jayanthi
+PromptArmor
+LinkedIn
+Mor Weinberger
+Aqua Security
+LinkedIn
+,
+Twitter
+Mark Roxberry
+DSI
+Github,
+X
+Bob Wall
+IronCore Labs
+Github
+,
+LinkedIn
+,
+X
+Bill Reyor
+Modus Create
+GitHub
+,
+LinkedIn
+Ashish Verma
+LinkedIn
+Ilanchezhian Ganesamurthy
+Tietoevry
+LinkedIn
+,
+Twitter
+Kenneth Yeung
+LinkedIn
+Abhinav Singh
+Normalyze
+LinkedIn
+Chase Peterson
+LinkedIn
+Rob Cappiello
+Smiling Prophet
+LinkedIn
+Meenakshi Kaushik
+LinkedIn
+Nate Lee
+Cloudsec.ai
+LinkedIn
+Harshit Chawla
+Linkedin
+,
+GitHub
+Lillian Peterson
+Linkedin
+Anna Bhavana
+Linkedin
+Jason Morton
+Linkedin
+, Github
+Shubham Verma
+Linkedin
+, Github
+Arnav Bathla
+Layerup
+LinkedIn
+Jamsheed Mistri
+Layerup
+LinkedIn
+Bar-El Tayouri
+Mend.io
+LinkedIn
+,
+Twitter
+,
+GitHub
+Matteo Dora
+Giskard
+LinkedIn
+,
+GitHub
+Conrad Bhuiyan-Volkoff
+LinkedIn
+,
+GitHub
+David Tubia
+BBVA
+LinkedIn
+Isabel Barberá
+RHITE
+LinkedIn
+Rachel James
+CyberShujin
+LinkedIn
+Gisela Hinojosa
+Cobalt
+LinkedIn
+Piotr Biskupski
+IBM
+LinkedIn
+Tomas Mercury
+GitHub
+Markus Hupfauer
+KPMG Germany FS
+LinkedIn
+Ronnie Quan
+GitHub,
+Medium
+Valerio Alessandroni
+EY Italy
+Linkedin
+,
+GitHub
+Vaibhav Malik
+Cloudflare
+Linkedin
+,
+GitHub
+Russell Tait
+SHI
+LinkedIn
+Philippe Schrettenbrunner
+MaibornWolff
+LinkedIn
+GitHub
+Brian Hutchins
+Nightfall AI
+LinkedIn
+Edna Sawe
+GitHub
+Nuray Baltaci Akhuseyinoglu
+Comcast
+LinkedIn
+Ivan Djordjevic
+Salesforce
+LinkedIn
+Besnik LIMAJ
+LOGIC PLUS
+LinkedIn
+Mamta Upadhyay
+LinkedIn
+Anjanava Biswas
+AWS
+LinkedIn
+Wrick Talukdar
+AWS
+LinkedIn
+Anugrah SR
+CyberSensAI
+LinkedIn
+Kirtan Patel
+Adobe
+LinkedIn
+Daniel Carlier
+LinkedIn
+,
+GitHub
+,
+Medium
+Xiaobo Zhang
+LinkedIn
+Sivesha Bissesar
+LinkedIn
+Sheisy Liu
+LinkedIn
+,
+Personal
+Jeffrey LEE
+LinkedIn
+,
+GitHub
+,
+Medium
+Arun Raghuramu
+LinkedIn
+Yingzi Jin
+Penetration Tester
+Iván M. Cabezas T.
+USB-Cali
+LinkedIn
+Vinnie Giarrusso
+Twilio
+LinkedIn
+,
+GitHub
+Ben Moreland
+Deloitte
+LinkedIn
+S M Zia Ur Rashid
+Paycom
+LinkedIn
+,
+GitHub
+,
+Personal
+Manuel Villanueva
+LinkedIn
+,
+GitHub
+Rajaram Srinivasan
+Unbound Security
+LinkedIn
+,
+GitHub
+Vignesh Subbiah
+Unbound Security
+LinkedIn
+, GitHub
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

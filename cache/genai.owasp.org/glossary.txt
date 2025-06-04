@@ -1,0 +1,142 @@
+LLM & AI Security Glossary | Key Terms by OWASP LLM Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+GETTING STARTED
+GLOSSARY
+Glossary of Terms
+Artificial Intelligence
+, AI – the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages. In the OWASP Top 10 for LLM Applications, the term should not be capitalized when used (other than in the beginning of a sentence, etc), however the abbreviation AI should be.
+Agent
+– see
+LLM Agent
+below.
+Confabulation
+– A term originating in psychiatry, where it is used to refer to a patient’s tendency to create false narratives either with the intent to deceive, or because they actually believe what they are saying is true. This definition closely aligns to what LLMs do when they generate output that is not based on real-world input or information. An LLM may confabulate output for a variety of reasons. When they do, the resulting output may be false, nonsensical, offensive, dangerous, or contain references to things that do not exist. Often the LLM will present such information confidently despite the fact that it is incorrect. Using the term
+confabulation
+to refer to this behavior is preferred to the term
+hallucinate
+among AI scientists and researchers, as it avoids anthropomorphizing the underlying technology.
+Dataset Contamination
+– Dataset/Model contamination is characterized by a model’s training dataset being contaminated with data that is also in the test dataset. This leads to misleading performance because the model is evaluated on examples it has already seen. Dataset/Model Contamination is different from the similarly named Training Data Poisoning (LLM03) which describes intentionally manipulating the dataset to compromise the model’s security, effectiveness or ethical behavior.
+Deep Learning
+– A subfield of Machine Learning focusing on artificial neural networks having more than one hidden layer.
+Embeddings
+– the numerical representation of words, phrases, or paragraphs of a text as a vector of real numbers. Embeddings capture the semantic meanings and relationships between words, resulting in similar vector representations for words that are semantically related.
+Few-Shot Learning
+– Model’s ability to understand a task after being provided a small number of examples during training.
+Fine-tuning
+– The process of further refining a Foundation Model to improve the performance of the model on a specific task. Common methods of fine tuning include:
+Training on task-specific datasets
+Embeddings
+Engineering task-specific system prompts
+Foundation Model
+– A large language model that is trained on a broad set of diverse data to operate across a wide range of use cases.
+Hallucinate
+– In the context of LLMs, the term
+hallucinate
+can refer to the process of generated content (usually text or code) that diverges from the expected response. Often this results in responses that are not based on any real-world artifacts or truths. Describing this behavior using the term
+confabulation
+is becoming preferred preferred among AI scientists and researchers, as it avoids anthropomorphizing the underlying technology.
+Inference
+– The process of using a trained model to generate predictions or responses, usually as an API or web service.
+LLM
+– Large language model. A type of artificial intelligence (AI) that is trained on a massive dataset of text and code. LLMs used natural language processing to process requests and generate data.
+LLM Agent
+– A piece of code that formulates prompts to an LLM and parses the output in order to perform an action or a series of actions (typically by calling one or more plugins/tools).
+LLM Agent Memory
+– A piece of code and dedicated storage that allows LLM Agent to remember interactions in the short and long term. (e.g., storing chat history between user sessions). LLM Agent Memory does not necessarily store the entire conversion it can store a summary, n last messages, etc.
+LLM Tool
+– A piece of code that exposes external functionality to an LLM Agent; e.g., reading a file, fetching the contest of a URL, querying a database, etc.
+LLM Plugin
+– similar to
+LLM Tool
+but more often used in the context of chatbots(e.g., ChatGPT).
+NLP (Natural Language Processing)
+– The branch of computer science focused on teaching computers to speak.
+Machine Learning
+– The subfield of AI studying the statistics-based algorithms which develop models they learn from data.
+Model Card
+– Documentation that provides detailed information about a machine learning model’s performance, limitations, and ideal use cases.
+One-Shot Learning
+– Model’s ability to comprehend a task from just a single example during training.
+Policy
+– The rules that govern how the AI responds to different types of input.
+Self-supervised learning
+– A type of machine learning in which the model is trained to learn from unlabeled data. In the case of LLMs, self-supervised learning is often used to train the model to predict the next word in a sequence.
+Sentient AI
+– An AI that exhibits the capacity to feel and register experience and feelings.
+Supervised learning
+is a machine learning approach that’s defined by its use of labeled datasets. These datasets are designed to train or “supervise” algorithms into classifying data or predicting outcomes accurately. Using labeled inputs and outputs, the model can measure its accuracy and learn over time.
+Transformer
+– A type of neural network architecture that is commonly used to train LLMs. Transformers are able to learn long-range dependencies between words, which makes them well-suited for natural language processing tasks.
+Transfer learning
+– A process of using a model that has been trained on one task to improve the performance of a model on a different task. Transfer learning is often used to save time and resources when training new models.
+Turing Test
+– A test proposed by Alan Turing to measure a machine’s ability to exhibit intelligent behavior equivalent to, or indistinguishable from, human behavior.
+Unsupervised learning
+uses machine learning algorithms to analyze and cluster unlabeled data sets. These algorithms discover hidden patterns in data without the need for human intervention (hence, they are “unsupervised”).
+Zero-Shot Learning
+– Model’s ability to understand a task and generate appropriate responses without having seen such examples during training
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top

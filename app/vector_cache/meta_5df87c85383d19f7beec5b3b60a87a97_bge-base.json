@@ -1,0 +1,1 @@
+{"url": "https://genai.owasp.org/resource/llm-and-gen-ai-data-security-best-practices/", "timestamp": "2025-06-04T11:38:18.798132", "doc_count": 30, "chunk_count": 638, "embedding_model": "bge-base", "model_info": {"name": "BAAI/bge-base-en-v1.5", "dimension": 768, "description": "Great quality, balanced (768d)", "max_length": 512}}

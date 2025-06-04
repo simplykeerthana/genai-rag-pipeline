@@ -1,0 +1,184 @@
+Resources Archive - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+Getting Started
+Resources
+Resources Library
+Get the latest on the Top 10 for LLMs and Generative AI application security developments from OWASP and InfoSec publications. Discover how leaders in tech are leveraging the projects resources to build trustworthy and secure generative AI applications.
+Subscribe with RSS to keep up with the latest from the community.
+Cheat Sheets
+Presentations
+Whitepapers/Guides
+All
+May 14, 2025
+Agent Name Service (ANS) for Secure Al Agent Discovery v1.0
+The Agent Name Service (ANS), developed under the OWASP GenAI Security Project – Agentic Security Initiative, introduces a secure, DNS-inspired framework for AI agent discovery. ANS leverages Public Key Infrastructure (PKI) for identity verification, structured
+More
+April 23, 2025
+Multi-Agentic system Threat Modeling Guide v1.0
+This guide builds on the OWASP Agentic AI – Threats and Mitigations publication, our master agentic threat taxonomy, by applying its threat taxonomy to real-world multi-agent systems (MAS). These systems, characterized by multiple autonomous agents
+More
+March 12, 2025
+OWASP Top 10 для LLM и генеративного ИИ (2025)
+Это обновление — актуальный и всеобъемлющий ресурс, который охватывает ключевые риски, уязвимости и методы их устранения для защиты генеративного ИИ и LLM-приложений на всех этапах их жизненного цикла: разработки, развертывания и управления. Независимо от того,
+More
+March 12, 2025
+OWASP Top 10 para Aplicações de LLM e IA Generativa (2025)
+Esta atualização oferece um recurso abrangente e atualizado que aborda os principais riscos, vulnerabilidades e medidas de proteção para garantir a segurança das aplicações de IA Generativa e LLMs em todo o seu ciclo de
+More
+March 12, 2025
+OWASP大型语言模型与生成式AI十大风险（2025）
+此次更新提供了一个全面的资源，针对在生成式AI和大型语言模型应用程序的开发、部署和管理生命周期中的主要风险、漏洞和缓解措施进行了解决。无论您是处理基于RAG的应用程序、代理架构，还是复杂的大型语言模型集成，这份清单对于开发人员、安全专业人员和希望安全采用AI的组织来说，都是必不可少的。
+More
+March 12, 2025
+OWASP大型語言模型及生成式 AI 十大風險（2025)
+這次更新針對生成式AI和大型語言模型應用在開發、部署和管理生命週期提供了一個全新且全面的資源，其中的針對主要風險、弱點和緩解措施進行了新的詮釋及說明。無論您是使用基於 RAG 的應用、代理架構，或是複雜的大型語言模型整合，這份清單對於開發人員、資安專家以及希望安全採用 AI 的組織來說都是不可或缺的參考資料。
+More
+March 12, 2025
+die OWASP Top 10 für LLM & Generative KI (2025)
+Dieses Update bietet eine aktualisierte und umfassende Ressource, die sich mit den größten Risiken, Schwachstellen und Gegenmaßnahmen für die Absicherung von Anwendungen für generative KI und LLM über ihren gesamten Entwicklungs-, Bereitstellungs- und Verwaltungslebenszyklus hinweg
+More
+March 12, 2025
+Top 10 2025 de riesgos y mitigaciones para LLMs y aplicaciones de IA Generativa
+El OWASP Top 10 para Aplicaciones de Modelos de Lenguaje Grandes comenzó en 2023 como un esfuerzo impulsado por la comunidad para resaltar y abordar problemas de seguridad específicos para aplicaciones de IA. Desde ese
+More
+March 6, 2025
+OWASP Gen AI Security Project – Agentic Threats Navigator
+The Agentic Threats Navigator is a guide that outlines key attack surfaces in agentic AI systems, including reasoning, memory, tools, identity, human oversight, and multi-agent interactions. It provides threats and examples to help security teams
+More
+February 26, 2025
+OWASP LLM Exploit Generation v1.0
+This paper examines the practical implications of large language models (LLMs) in offensive cybersecurity, moving beyond theoretical possibilities to assess their real-world effectiveness. The research, conducted by the CTI Layer Team at OWASP Top Ten
+More
+February 17, 2025
+Agentic AI – Threats and Mitigations
+Agentic AI represents an advancement in autonomous systems, increasingly enabled by large language models (LLMs) and generative AI. While agentic AI predates modern LLMs, their integration with generative AI has significantly expanded their scale, capabilities,
+More
+February 13, 2025
+LLM and Gen AI Data Security Best Practices
+The rapid proliferation of Large Language Models (LLMs) across various industries has highlighted the critical need for advanced data security practices. As these AI systems become more sophisticated, they bring with them unprecedented risks, including
+More
+January 22, 2025
+GenAI Red Teaming Guide
+This guide outlines the critical components of GenAI Red Teaming, with actionable insights for cybersecurity professionals, AI/ML engineers, Red Team practitioners, risk managers, adversarial attack researchers, CISOs, architecture teams, and business leaders. The guide emphasizes
+More
+January 5, 2025
+LLM and Generative AI Security Solutions Landscape – Q1,2025
+Updated for Q1, 2025 – The LLM and Generative AI Security Solutions Landscape is tailored for a diverse audience comprising developers, AppSec professionals, DevSecOps and MLSecOps teams, data engineers, data scientists, CISOs, and security leaders
+More
+January 3, 2025
+AI Security Solution Cheat Sheet Q1-2025
+Excerpted from the AI Security Solutions Landscape guide for Q1, 2025, This includes the LLM & Gen AI Security Solutions Cheat Sheet as well as the Cheat Sheet for outlining the LLM and Gen AI
+More
+November 17, 2024
+OWASP Top 10 for LLM Applications 2025
+The OWASP Top 10 for Large Language Model Applications started in 2023 as a community-driven effort to highlight and address security issues specific to AI applications. Since then, the technology has continued to spread across
+More
+October 24, 2024
+LLM and Generative AI Security Solutions Landscape
+The LLM and Generative AI Security Solutions Landscape is tailored for a diverse audience comprising developers, AppSec professionals, DevSecOps and MLSecOps teams, data engineers, data scientists, CISOs, and security leaders who are focused on developing
+More
+October 6, 2024
+LLM and Generative AI Security Center of Excellence Guide
+As generative AI technologies evolve and integrate into various aspects of business and society, the need for robust governance, security, and policy management becomes paramount. Establishing a Center of Excellence (COE) for Generative AI Security
+More
+September 23, 2024
+Guide for Preparing and Responding to Deepfake Events
+Deepfakes—hyper-realistic digital forgeries—have gained significant attention as the rapid development of generative AI has made it easier to produce convincingly realistic videos and audio recordings that can deceive even the most discerning viewers. While deepfakes
+More
+June 12, 2024
+LLM Top 10 for LLMs 2024 – Deutsch
+Release 1.1 of the OWASP Top 10 for LLMs and Generative AI Deutsch Translation
+More
+Initiatives
+Agentic Security
+AI Data Security
+AI Security Solution Landscape
+AI Threat Intelligence
+Red Teaming
+Secure AI Adoption
+Top 10 List for LLM & GenAI
+All
+Languages
+English
+German
+Hindi
+Italian
+Japanese
+Portuguese
+Russian
+Simplified Chinese
+Spanish
+Traditional Chinese
+All
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+OWASP Gen AI Security Project
+Proudly powered by WordPress
+Theme: Astra.
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

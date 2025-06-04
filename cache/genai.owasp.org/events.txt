@@ -1,0 +1,158 @@
+Events Archive - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+ABOUT
+events
+Events
+Learn about upcoming and past virtual, physical, sponsored and community events. Join us.
+Featured Event
+OWASP Global AppSec EU 2025
+Upcoming Events
+In-Person
+Aug
+7
+8:00 AM PDT
+Aug
+10
+5:00 PM PDT
+OWASP Gen AI Hackathon at DEFCON 33
+Join us at DEF CON 33 in Las Vegas, August 7-10th for a 3-day Agentic AI hackathon and sessions. We are in the throws of planning this event and will…
+More . .
+Webinar
+Jun
+17
+8:00 AM PDT
+Jun
+17
+9:00 AM PDT
+Why MCP Enabled Agents Are the Next Cyber Battleground
+As agentic AI systems transition from conceptual models to real-world deployments, MCP (Model Context Protocol) agents are emerging as a critical interface layer — and the next major attack vector.…
+More . .
+Featured
+,
+In-Person
+May
+27
+8:00 AM PDT
+May
+30
+5:58 PM PDT
+OWASP Global AppSec EU 2025
+From May 26-30, 2025, join over 700 cybersecurity experts at the spectacular Centre de Convencions Internacional de Barcelona (CCIB) for an event like no other. This year's reimagined conference promises…
+More . .
+Virtual
+Apr
+30
+2:00 PM PDT
+Apr
+30
+5:00 PM PDT
+Agentic Security Open Workshop
+Join us for a dynamic, community-driven workshop exploring the emerging discipline of Agentic Security through the work of the OWASP GenAI Security’s Agentic Security Initiative (ASI). This open workshop will…
+More . .
+In-Person
+Apr
+28
+8:00 AM PDT
+May
+1
+4:00 PM PDT
+RSAC 2025 Conference
+Join our project again this year at RSAC in San Francisco as once again host again this year the OWASP Gen AI Security Summit.
+More . .
+Past Events
+In-Person
+Developerweek 2025
+Join us at developerweek 2025, drop by our sessions.
+More . .
+In-Person
+InfoSec World 2024
+InfoSec World is the leading cybersecurity conference for security practitioners and executives. Now in its 30th year, InfoSec World has been known as the “Business of Security” conference—featuring expert insights,…
+More . .
+In-Person
+Cloud Security Alliance – SECtember.AI
+The mission of SECtember, CSA’s annual flagship event, is to change the way the cloud and cybersecurity industry meets. In honor of this vision and in light of the most…
+More . .
+In-Person
+OWASP Global AppSec San Francisco 2024
+Join OWASP Global AppSec San Francisco alongside 1200+ cybersecurity experts from September 23-27 at the Hyatt Regency San Francisco in San Francisco, CA. Immerse yourself in thought-provoking presentations by globally…
+More . .
+In-Person
+RSA Conference 2024
+Join us at RSA 2024 for a full day summit on securing LLMs and Generative AI applications.
+More . .
+In-Person
+OWASP Global AppSec – Europe
+THE MUST ATTEND EVENT FOR CYBERSECURITY PROFESSIONALS Participate in the OWASP 2024 Global AppSec Lisbon event alongside 700+ cybersecurity experts from June 24-28 at the Lisbon Congress Center in Lisbon,…
+More . .
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+OWASP Gen AI Security Project
+Proudly powered by WordPress
+Theme: Astra.
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

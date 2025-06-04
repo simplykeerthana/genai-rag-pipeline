@@ -1,0 +1,214 @@
+Learning Archive - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI SECURITY
+Learning
+Learning
+Start you learning path to education yourself on securing Large Language Model (LLM) and Generative AI applications. Access community videos, webinars, focused on-demand training and certifications.
+Join us also on our YouTube Channel:
+@GenAISecurityProject
+Community
+Events
+Project
+Project Meetings
+Training
+Webinar
+All
+Agentic Security
+Data Security
+Governance
+LLM, Gen AI Top 10
+Other
+Red Teaming
+Secure AI Adoption
+Solutions
+Threat Inteligence & Response
+All
+Advanced
+Intermediate
+Introductory
+AI/Data Scientists
+All
+Architects
+Developers
+Leaders (CxO, VP)
+Practitioners
+Events
+Agentic Open Workshop – Agentic AI Threat Modeling
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Open Agentic Workshop – Insecure Code Examples
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Open Agentic Workshop – Securing Agentic Apps
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Agentic Open Workshop – Agentic Threat Modeling Framework
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Open Agentic Workshop – Agentic Landscape
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Agentic Security Open Workshop – Agentic AI Threats and Mitigations
+Helen Oakley,
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Events
+Agentic Security Open Workshop – Introduction
+John Sotiropoulos, Agentic Security Co-Lead,
+OWASP GenAI Security Project
+Audience -
+All
+Topics -
+Agentic Security
+More
+Project Meetings
+Ep.33 Meeting Mar 26 2025 – Project Updates: Governance, Sponsorship & Growth
+Project Core Team,
+genai.owasp.org
+Audience -
+All
+Topics -
+Other
+More
+Events
+OWASP AppSec SF 2024 : Top 10 for Large Language Models – Project Update
+Steve Wilson, Scott Clinton,
+OWASP 2024 Global App Sec
+Audience -
+All
+Topics -
+LLM, Gen AI Top 10
+More
+Project Meetings
+Ep. 28: Meeting Jan 15 2025 – Red Teaming, Deepfake, RSA 2025 Updates And More
+Project Core Team,
+genai.owasp.org
+Audience -
+All
+More
+Project Meetings
+Ep. 27: Meeting Dec 18 2024 – OWASP Recognition, AI Red Teaming, RSA And More
+Project Core Team,
+genai.owasp.org
+Audience -
+All
+More
+Project Meetings
+Episode 26: Meeting December 4 2024 Launch Updates, New GenAI Security Podcast And More
+Project Core Team,
+genai.owasp.org
+Audience -
+All
+More
+Project Meetings
+Episode 25: Meeting November 20 2024
+Project Core Team,
+genai.owasp.org
+More
+Project Meetings
+Episode 24: Meeting November 6 2024 Deepfake Guidance, Solutions Landscape And More
+Project Core Team,
+genai.owasp.org
+Audience -
+All
+More
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+OWASP Gen AI Security Project
+Proudly powered by WordPress
+Theme: Astra.
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

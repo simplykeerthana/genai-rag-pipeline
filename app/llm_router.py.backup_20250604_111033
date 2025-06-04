@@ -1,0 +1,189 @@
+# app/llm_router.py
+from app.config import LLM_MODE, LOCAL_MODEL_PATH, OPENAI_API_KEY, TRANSFORMER_MODEL_PATH
+import os
+import sys
+
+# Global variables
+response_format = "text"
+model = None
+tokenizer = None
+llm = None
+
+# Initialize LLM based on mode
+print(f"[LLM_ROUTER] Initializing with mode: {LLM_MODE}")
+
+if LLM_MODE == "local":
+    try:
+        from llama_cpp import Llama
+        llm = Llama(model_path=LOCAL_MODEL_PATH, n_ctx=2048, n_threads=4)
+        print("[LLM_ROUTER] Local LLaMA model loaded successfully")
+    except Exception as e:
+        print(f"[LLM_ROUTER] Error loading local model: {e}")
+        llm = None
+    
+elif LLM_MODE == "openai":
+    try:
+        import openai
+        openai.api_key = OPENAI_API_KEY
+        print("[LLM_ROUTER] OpenAI configured")
+    except Exception as e:
+        print(f"[LLM_ROUTER] Error configuring OpenAI: {e}")
+    
+elif LLM_MODE == "transformers":
+    try:
+        import torch
+        from transformers import AutoTokenizer, AutoModelForCausalLM
+        
+        # Force offline mode
+        os.environ["HF_HUB_OFFLINE"] = "1"
+        os.environ["TRANSFORMERS_OFFLINE"] = "1"
+        
+        # Set up torch
+        torch.set_num_threads(4)
+        
+        # Device selection with MPS support
+        if torch.cuda.is_available():
+            device = "cuda"
+        elif hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+            device = "mps"
+        else:
+            device = "cpu"
+            
+        print(f"[LLM_ROUTER] Using device: {device}")
+        
+        model_path = TRANSFORMER_MODEL_PATH
+        
+        if not os.path.exists(model_path):
+            raise FileNotFoundError(f"Model path does not exist: {model_path}")
+        
+        print(f"[LLM_ROUTER] Loading model from: {model_path}")
+        
+        # Load tokenizer
+        tokenizer = AutoTokenizer.from_pretrained(
+            model_path,
+            local_files_only=True,
+            trust_remote_code=True
+        )
+        
+        # Load model
+        if device == "mps":
+            # Special handling for MPS
+            model = AutoModelForCausalLM.from_pretrained(
+                model_path,
+                local_files_only=True,
+                trust_remote_code=True,
+                torch_dtype=torch.float16,  # Use float16 for MPS
+                low_cpu_mem_usage=True,
+            )
+        else:
+            # CPU or CUDA
+            model = AutoModelForCausalLM.from_pretrained(
+                model_path,
+                local_files_only=True,
+                trust_remote_code=True,
+                torch_dtype=torch.float32 if device == "cpu" else torch.float16,
+                low_cpu_mem_usage=True,
+            )
+        
+        # Move model to device
+        print(f"[LLM_ROUTER] Moving model to {device}...")
+        model = model.to(device)
+        model.eval()
+        
+        # Verify device
+        first_param = next(model.parameters())
+        actual_device = first_param.device
+        print(f"[LLM_ROUTER] Model actually loaded on: {actual_device}")
+        
+        # Set pad token
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
+        
+        print(f"[LLM_ROUTER] Transformer model loaded successfully on {actual_device}")
+        
+    except Exception as e:
+        print(f"[LLM_ROUTER] Error loading transformer model: {e}")
+        import traceback
+        traceback.print_exc()
+        model = None
+        tokenizer = None
+
+def generate_response(prompt: str, max_length: int = 500, mode: str = None, api_key: str = None) -> str:
+    """Generate response using configured LLM"""
+    
+    current_mode = mode or LLM_MODE
+    
+    try:
+        if current_mode == "local" and llm:
+            output = llm(prompt, max_tokens=max_length, temperature=0.7)
+            return output["choices"][0]["text"].strip()
+            
+        elif current_mode == "openai":
+            import openai
+            if api_key:
+                openai.api_key = api_key
+                
+            response = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant."},
+                    {"role": "user", "content": prompt}
+                ],
+                max_tokens=max_length,
+                temperature=0.7
+            )
+            return response["choices"][0]["message"]["content"].strip()
+            
+        elif current_mode == "transformers" and model and tokenizer:
+            import torch
+            
+            # Get device from model
+            device = next(model.parameters()).device
+            
+            # Tokenize
+            inputs = tokenizer(
+                prompt, 
+                return_tensors="pt", 
+                truncation=True, 
+                max_length=1024,
+                padding=False
+            )
+            
+            # Move inputs to same device as model
+            inputs = {k: v.to(device) for k, v in inputs.items()}
+            
+            # Generate
+            with torch.no_grad():
+                outputs = model.generate(
+                    **inputs,
+                    max_new_tokens=max_length,
+                    min_new_tokens=50,
+                    do_sample=True,
+                    top_p=0.9,
+                    temperature=0.7,
+                    pad_token_id=tokenizer.pad_token_id,
+                    eos_token_id=tokenizer.eos_token_id,
+                )
+            
+            # Decode
+            response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+            
+            # Remove input prompt from response
+            if response.startswith(prompt):
+                response = response[len(prompt):].strip()
+            
+            # Clean up
+            sentences = response.split('. ')
+            if sentences and not response.endswith('.'):
+                response = '. '.join(sentences[:-1]) + '.'
+            
+            return response
+            
+        else:
+            return f"Error: LLM not properly initialized for mode {current_mode}"
+            
+    except Exception as e:
+        print(f"[LLM_ROUTER] Error generating response: {e}")
+        import traceback
+        traceback.print_exc()
+        return f"Error generating response: {str(e)}"

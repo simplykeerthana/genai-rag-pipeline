@@ -1,0 +1,130 @@
+Supporters - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI SECURITY
+Project
+SPONSORS
+Sponsors and Supporters
+Project Sponsors
+Project Sponsors, help to contribute to the sustainability of the project through financial sponsorship as part of the project sponsorship program. All proceedes go to cover operational and outreach costs for the project and related initiatives.
+Inagural Project Sponsors - Read the Announcement
+Gold
+Trend Micro, a global cybersecurity leader, leverages decades of security expertise, research, and innovation to help make the world safe for exchanging digital information.
+Gold
+ByteDance is a technology company known for developing innovative content platforms powered by artificial intelligence. Founded in 2012, ByteDance is best known for TikTok (international) and Douyin (China), short-video platforms
+Gold
+HiddenLayer, a Gartner-recognized Cool Vendor for AI Security, is the leading provider of Security for AI. Its security platform helps enterprises safeguard the machine learning models behind their most important
+Gold
+Palo Alto Networks is the global cybersecurity leader, committed to making each day safer than the one before with industry-leading, AI-powered solutions in network security, cloud security and security operations
+Gold
+Snyk is the leader in developer security, empowering developers to build secure applications and equip security teams to meet the demands of the digital world.
+Gold
+Mend.io offers an enterprise suite of application security tools designed to help leading organizations build and manage mature AppSec programs, enabling them to stop chasing vulnerabilities and start proactively managing
+Silver
+SplxAI is the global leader in AI red teaming – automating security testing for AI systems to uncover vulnerabilities, ensure compliance, and safeguard AI apps and agents across the development
+View
+Silver
+Acuvity is the leading provider of Runtime GenAI Security Platform. With its GenAI-native platform, Acuvity enables enterprises to increase productivity and gain competitive advantage via the use of GenAI.
+View
+Silver
+Lakera is the world’s leading real-time GenAI security company. The company created Gandalf, an educational tool, where more than one million users have learned about AI security. Lakera uses AI
+View
+Silver
+Protecto provides AI data guardrails to prevent sensitive data leaks, privacy breaches, and compliance risks in AI/LLM use cases while preserving data context and ensuring AI accuracy.
+View
+Silver
+ActiveFence helps you create trusted and secure AI experiences with the data, expertise, and guardrails for deployment-ready models and safe enterprise applications.
+View
+Silver
+TrojAI is an enterprise-grade AI security platform that protects the behavior of AI/ML and GenAI models and applications at build time and run time.
+View
+Silver
+Cobalt enables organizations to reduce risk and thrive in a secure future with an offensive security approach to identifying and addressing cyber threats.
+View
+Silver
+Pangea helps organizations ship secure AI applications quickly with the industry's broadest set of AI security guardrails added with just a few lines of code.
+View
+Silver
+Prompt Security empowers organizations to safely and securely adopt Generative AI by protecting from all GenAI-related risks across applications, employees and customers.
+View
+Silver
+Synack’s Penetration Testing as a Service platform manages customers’ attack surfaces by discovering assets, pentesting for vulnerabilities and gaining visibility into security risks’ root causes.
+View
+Silver
+Lasso Security is a pioneering comprehensive Large Language Models (LLMs) cybersecurity solution that is committed to addressing the evolving threats and challenges that businesses are beginning to encounter with Generative
+View
+Silver
+Securiti is the pioneer of the Data Command Center, a centralized platform that enables the safe use of data and AI
+View
+Load More
+Become a Sponsor
+Learn about Sponsorship Benefits
+Supporting Organizations
+Supporting organization provide reasources and contributions as part of the project development overall and support the goals of the project.
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

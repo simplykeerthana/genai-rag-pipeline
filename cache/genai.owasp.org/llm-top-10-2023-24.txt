@@ -1,0 +1,130 @@
+LLMRisks2023-24 Archive - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI - 2023-24
+Top 10 for LLMs and Gen AI Apps 2023-24
+View the  Top 10 risks, vulnerabilities and mitigations in 2023-2024 for developing and securing generative AI and large language model applications across the development, deployment and management lifecycle.
+View the latest risk and mitigations for
+2025
+.
+LLM01: Prompt Injection
+Prompt Injection Vulnerability occurs when an attacker manipulates a large...
+Read More
+LLM02: Insecure Output Handling
+Insecure Output Handling refers specifically to insufficient validation, sanitization, and...
+Read More
+LLM03: Training Data Poisoning
+The starting point of any machine learning approach is training...
+Read More
+LLM04: Model Denial of Service
+An attacker interacts with an LLM in a method that...
+Read More
+LLM05: Supply Chain Vulnerabilities
+The supply chain in LLMs can be vulnerable, impacting the...
+Read More
+LLM06: Sensitive Information Disclosure
+LLM applications have the potential to reveal sensitive information, proprietary...
+Read More
+LLM07: Insecure Plugin Design
+LLM plugins are extensions that, when enabled, are called automatically...
+Read More
+LLM08: Excessive Agency
+An LLM-based system is often granted a degree of agency...
+Read More
+LLM09: Overreliance
+Overreliance can occur when an LLM produces erroneous information and...
+Read More
+LLM10: Model Theft
+This entry refers to the unauthorized access and exfiltration of...
+Read More
+Document Versions and Translations
+April 11, 2024
+LLM Top 10 for LLMs 2024
+May 4, 2024
+OWASP Top 10 for LLM Overview Presentation
+May 7, 2024
+LLM Top 10 for LLMs 2024 – Chinese
+1
+2
+3
+4
+Next
+OWASP Top 10 for LLM Overview Presentation
+View »
+May 4, 2024
+LLM Top 10 for LLMs 2024 – Deutsch
+View »
+June 12, 2024
+LLM Top 10 for LLMs 2024 – Portugese
+View »
+May 7, 2024
+LLM Top 10 for LLMs 2024 – Italian
+View »
+May 29, 2024
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

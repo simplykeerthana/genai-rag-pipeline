@@ -1,0 +1,127 @@
+Project Mission and Charter - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI
+PROJECT
+CHARTER
+OWASP Gen AI Security Project Charter
+Mission Statement
+The OWASP Gen AI Security Project is a global, open-source initiative dedicated to identifying, mitigating, and documenting security and safety risks associated with generative AI technologies, including large language models (LLMs), agentic AI systems, and AI-driven applications. Our mission is to empower organizations, security professionals, AI practitioners, and policymakers with comprehensive, actionable guidance and tools to ensure the secure development, deployment, and governance of generative AI systems.
+Project Objectives
+Risk Identification & Documentation
+Maintain and evolve the
+OWASP Top 10 for LLM Applications
+, providing a structured framework for understanding generative AI’s most critical security risks.
+Research and document emerging threats, adversarial attack techniques, and potential vulnerabilities specific to AI models and applications.
+Security Best Practices & Mitigations
+Develop practical security recommendations and blueprints for securing AI-driven applications.
+Provide governance frameworks, compliance guidelines, safety and risk management strategies tailored for AI security.
+Maintain and expand resources like
+AI Security Solutions Landscape
+, a curated repository of security tools, and frameworks, updated quarterly.
+Applied Research & Community Collaboration
+Foster research initiatives such as
+AI Red Teaming & Evaluation
+,
+Securing AI-driven Exploit Generation
+, and
+Agentic AI Security
+to explore attack surfaces and mitigation strategies.
+Collaborate with academic institutions, industry leaders, and government agencies to drive AI security research and regulatory alignment.
+Education, Training, & Knowledge Sharing
+Provide publicly accessible security resources, training materials, and open-source tools to support AI security education.
+Translate key security documents into multiple languages to ensure accessibility for a global audience.
+Engage security professionals and AI engineers through working groups, webinars, and industry events.
+Enterprise Adoption & AI Governance
+Develop and maintain resources to support practitioners and executives alike such as the
+CISO AI Security Checklist
+, offering structured guidance for enterprises integrating generative AI into business workflows.
+Support organizations in building AI security governance programs through resources like the
+OWASP AI Security Center of Excellence (CoE) Guide
+.
+Provide CISOs and security leaders with governance roadmaps and risk assessment methodologies.
+Core Principles
+Open & Collaborative:
+The project thrives on global contributions from AI and security experts across industries, academia, and government sectors.
+Transparency & Accessibility:
+All research outputs are open-source, peer-reviewed, and freely available to ensure widespread adoption and continuous improvement.
+Practical & Actionable Guidance:
+The project focuses on producing hands-on, implementable security solutions rather than theoretical frameworks.
+Ethical AI Security Advocacy:
+Promote responsible AI development and deployment by addressing ethical concerns, bias mitigation, and adversarial misuse.
+Project Structure & Participation
+The OWASP Gen AI Security Project operates as a decentralized, community-driven initiative. Participation is open to:
+AI security researchers, engineers, and practitioners.
+Organizations integrating generative AI technologies.
+Cybersecurity professionals, red teamers, and AI governance experts.
+Policymakers, regulators, and compliance officers who are involved in AI risk management.
+Get Involved
+The OWASP Gen AI Security Project welcomes contributors from around the world. Whether you’re an AI researcher, security expert, or industry professional, you can help advance AI security by:
+Contributing to research and documentation efforts.
+Participating in working groups and discussions.
+Providing real-world case studies and mitigation strategies.
+Supporting localization efforts to expand access to AI security guidance.
+Join us in shaping the future of secure generative AI development. Visit our project page, engage with the community, and help drive the evolution of AI security best practices.
+Download
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top

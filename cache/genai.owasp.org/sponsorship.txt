@@ -1,0 +1,108 @@
+Sponsor: Support OWASP LLM & Generative AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI SECURITY
+PROJECT
+Sponsorship
+Become A Sponsor
+The project is a non-profit volunteer effort and sponsorship helps to ensure the project’s success by providing the resources to maximize the value community contributions bring to the overall project. Sponsorship donation funding received is applied to help cover resources, operations, outreach and education costs.
+Current Sponsors
+Getting Started
+The OWASP GenAI Security project is a community-driven effort open to anyone who wants to contribute. The project is a non-profit effort and sponsorship helps to ensure the project’s success by providing the resources to maximize the value community contributions bring to the overall project. Funding received is applied to help cover resources, operations, outreach and education costs.
+In exchange, the project offers a number of benefits to recognize the company’s contributions including project logo placement, branding and promotional opportunities from our media partners. Sponsorship does not impact project governance, which remains open and unbiased.
+Why Are We Seeking Sponsorship
+The OWASP Foundation does provide the project with operational resources to support the project. However it is limited. Through sponsorship we aim to ensure the OWASP GenAI Security project has the resources necessary to empower our large collaborative community to continue to provide the industry with the latest research insights and guidance to securing generative AI/LLM systems and applications to address the evolving landscape, in an open and transparent way to benefit the industry.
+The funding also goes to support specific project
+Initiatives
+and research projects to help gather data and enhance security for LLM and Generative AI applications. Some example
+Initiatives
+include supporting our Data Gathering Initiative, as well as LLM Red Teaming Research.
+Review The Sponsorship Guide
+In exchange for project sponsorship, sponsors are are able to access promotional opportunities including:
+Website logo placement
+Dedicated Sponsor pages
+Logo Inclusion in each project asset that is produced
+Event sponsorship discounts
+Access to project media partnerships
+Joint webinars, thought leadership
+Project Sponsor badges for use on sponsor websites, published material.
+And more.
+Review the Sponsorship Program Guide for more background and details,
+View Guide
+Choose a Sponsorship Level
+Choose from two levels of sponsorship – Gold, Silver and complete the Sponsorship commitment form.  You will receive an invoice from OWASP.org within 72 hours. Once your payment is confirmed, you will receive an onboarding email to help get you started as a Sponsor.
+Complete Form
+Still Have Questions?
+We are committed to the OWASP GenAI Security Project  maintaining its industry neutrality. The sponsorship program had been developed with this in mind to ensure we continue our open commitment to the industry .
+If you are interested in becoming a donor/sponsor and still have questions please reach out on our project slack channel
+#team-genai-donor-sponsor-interest
+or complete the Sponsor Interest
+Google form
+, and a community member will contact you with details and next steps to answer your questions.
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

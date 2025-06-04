@@ -1,0 +1,150 @@
+OWASP Branding Guidelines for LLM & Generative AI Security
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+introduction
+Branding
+Branding and Logo Usage Guidelines
+Below you find branding guidelines and the logos user to refer to the OWASP Top 10 for LLM and Generative AI application security project. This is an extension of the
+OWASP Foundations branding guidelines
+(read these first) which also apply to this project.
+Statement of Non-Endorsement
+OWASP Top 10 for LLM Applications and Generative AI security does not endorse any product, services, or tools. The following disclaimer/About OWASP text can be used in projects or press releases that reference external products, services, or tools. We ask that the community look out for inappropriate uses of the OWASP brand, including the use of our name, logos, project names, and other trademark issues.
+Project and Asset Naming and Referencing Guidelines
+Below are the guidelines for referencing the project, project materials or assets in any publication either for public presentation and inclusion and reference in other materials under the projects appropriate OSI license. This includes but is not limited to whitepapers, presentations, videos, webinars, signage, research papers, podcasts, websites, etc.
+The project name must be included in all publications, or references to the project either in text or through the use of the approved project logos. The following reference guide provides the specific naming, usage and reference guidelines for the OWASP Foundation, Project, Initiatives and Assets.
+Naming, Reference and Usage Guide:
+General Hierarchy
+, The Project, and Project Elements and Assets.
+Below is the general hierarchy applied to naming and referencing the OWASP Foundation, The Project, and Project Elements and Assets.
+The OWASP Foundation
+The Project
+Top Level Assets
+ex: AI Security Solutions Landscape, Top 10 List
+Initiatives
+Initiative Assets
+ex: Deep Fake Response Guide
+The Foundation
+Primary:
+The OWASP Foundation
+Alternative:
+The Open Worldwide Application Security Project, Foundation
+Alternative #2:
+OWASP.org
+The Project Name
+Primary:
+OWASP Top 10 for LLM Applications & Generative AI Project
+Alternative:
+OWASP Top 10 for LLM & Gen AI Project
+– Logos can be used in place of Text
+Stand-alone Project Name
+Primary:
+Top 10 for LLM Applications & Generative AI Project
+Alternative:
+Top 10 for LLM & Gen AI Project
+Improper  Usage:
+Example #1: Top 10 for LLM Applications (refers to  the list asset)
+Project Initiatives
+Project initiatives must include a reference to the project plus the reference to the approved initiative name. See below acceptable and improper uses.
+Primary:
+OWASP Top 10 for LLM & Gen AI Project – Red Teaming Initiative
+Alternative:
+Top 10 for LLM & Gen AI Project – Red Teaming Initiative
+Alternative#2:
+Red Teaming Initiative,  OWASP Top 10 for LLM & Gen AI Project
+Improper Usage:
+Example #1:  OWASP Red Teaming Initiative
+Example #2: Red Teaming Initiative
+“OWASP” alone cannot be used to preface a project initiative, as it creates
+confusion in governance differences between the OWASP Foundation Projects,
+and the OWASP Top 10 for LLM and Generative AI Project Initiatives.
+Referencing Project Assets
+References to project assets must include the project name in their first usage in a text document, inclusion in slides and other written materials.
+Primary:
+OWASP Top 10 for LLM Applications & Generative AI Project
+Alternative:
+OWASP Top 10 for LLM & Gen AI Project
+All references to assets must have an accompanying link to the source assets, in accordance with the asset’s OSI license. Any questions on usage guidelines can be posted to the #team-llm-outreach slack channel.
+Logos
+There are two approved Logos for the project. These are available in a stacked and horizontal version. Appropriate colors are either White or Black. These logos cannot be reconfigured in any way or changes made to colors.
+A zip file with the Logos can be found
+here.
+Stacked Logo
+Stacked with URL
+Horizontal Logo
+Color Palette
+Download Palate.pdf
+Typefaces
+Headings:
+Poppins
+Body Text:
+Barlow
+Logo (similar, not exact match!):
+Montserrat Alternates
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

@@ -1,0 +1,138 @@
+Blog - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+BLOG
+Welcome to the Blog
+Gain the latest insights into developing secure and trusted LLM and generative AI applications, from the experts
+Subscribe with RSS to keep up with the latest from the community.
+Events
+Recap from OWASP Gen AI Security Project’s – NYC Insecure Agents Hackathon
+Read More »
+April 25, 2025
+Article
+Securing AI’s New Frontier: The Power of Open Collaboration on MCP Security
+Read More »
+April 22, 2025
+Announcement
+OWASP Gen AI Security Project Announces Nine New Sponsors and Major RSA Conference Presence to Advance Generative AI Security
+Read More »
+April 17, 2025
+Announcement
+OWASP Top 10 for LLM is now  the GenAI Security Project and promoted to OWASP Flagship status
+Read More »
+March 26, 2025
+Article
+OWASP Gen AI Incident & Exploit Round-up, Jan-Feb 2025
+Read More »
+March 6, 2025
+Announcement
+OWASP AI Security Guidelines offer a supporting foundation for new UK government AI Security Guidelines
+Read More »
+January 31, 2025
+Announcement
+Announcing the OWASP Gen AI Red Teaming Guide
+Read More »
+January 22, 2025
+Announcement
+Announcing the OWASP LLM and Gen AI Security Project Initiative for Securing Agentic Applications
+Read More »
+December 15, 2024
+Announcement
+OWASP Reveals Updated 2025 Top 10 Risks for LLMs, Announces New LLM Project Sponsorship Program and Inaugural Sponsors
+Read More »
+November 17, 2024
+Announcement
+OWASP Dramatically Expands GenAI Security Guidance with Guides for Handling DeepFakes, Building an Ai Security Center of Excellence, and a Gen AI Security Solutions Guide.
+Read More »
+October 28, 2024
+Search
+Recent Blogs
+Recap from OWASP Gen AI Security Project’s – NYC Insecure Agents Hackathon
+Securing AI’s New Frontier: The Power of Open Collaboration on MCP Security
+OWASP Gen AI Security Project Announces Nine New Sponsors and Major RSA Conference Presence to Advance Generative AI Security
+OWASP Top 10 for LLM is now  the GenAI Security Project and promoted to OWASP Flagship status
+OWASP Gen AI Incident & Exploit Round-up, Jan-Feb 2025
+Archives
+April 2025
+March 2025
+January 2025
+December 2024
+November 2024
+October 2024
+September 2024
+June 2024
+May 2024
+April 2024
+October 2023
+May 2023
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+OWASP Gen AI Security Project
+Proudly powered by WordPress
+Theme: Astra.
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

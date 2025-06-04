@@ -1,0 +1,236 @@
+OWASP Top 10: LLM & Generative AI Security Risks
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+Join us @ RSAC 2025 This Year
+OWASP AI Security Summit 2025 @ RSAC
+Join us for the 2nd annual OWASP LLM & Gen AI Security Summit on Wednesday, April 30th, 8:30 AM - 12:30 PM.  Explore key topics like the 2025 Top 10, Securing Agentic Apps, Gen AI Data, Applied AI Red Teaming, AI Governance, and more. Room 308
+Learn More
+NEW!
+Agentic AI - Threats and Mitigations Guide
+Agentic AI, powered by LLMs and generative AI, enhances autonomous systems but also increases risks. The Agentic AI - Threats and Mitigations guide explores emerging threats and mitigations through a threat-model-based approach.
+Learn More
+Download Now
+ANNOUNCEMENT!
+OWASP Promotes GenAI Security Project to Flagship Status
+The "OWASP Top 10 for LLM and Generative AI" has become the "OWASP Gen AI Security Project". The name change reflects the popularity of the initial Top 10 List, recognition of the project’s expanded focus, and promotion to a flagship project.
+Learn More
+NEW!
+LLM and Gen AI Data Security Best Practices Guide
+Gen AI and LLMs require strong data security to prevent breaches and meet regulations. This paper covers best practices in protection, privacy, and threat mitigation.
+Download
+NEW!
+Six New Translations Now Available, Top 10 for LLM and Gen AI 2025
+The new translations include: Spanish, German, Simplified Chinese, Traditional Chinese, Portuguese, and Russian.
+Download Now
+NEW!
+UK AI Cyber Security Code cites several project resources, guidance.
+Learn how OWASP Top 10 for LLM and Generative AI Security guidance and resources provide a supporting foundation for the new UK AI Security Code of Practice and implementation guide.
+Learn More
+ANNOUNCEMENT!
+OWASP Gen AI Red Teaming Guide Now Available!
+This New guide provides key insights and practical framework into GenAI Red Teaming for cybersecurity professionals, AI/ML engineers, researchers & practitioners.
+Learn More
+Download
+UPDATED LIST FOR Q1, 2025, NEW CHEAT SHEETS
+Explore The 2025 AI Security Solutions Landscape
+The AI Security Landscape maps risks from the LLM Top 10, LLMSecOps, and solutions for securing GenAI apps throughout the LLMSecOps lifecycle.
+Learn More
+NEW!
+Deepfake Threat Preparation and Response Guidance
+The OWASP LLM Top 10 team announces the release of a comprehensive guide for mitigating and responding to deepfake risks.
+Learn More
+Download Now
+NEW!
+AI Security Center of Excellence Guide
+Establishing a Generative AI Security COE is essential. This document offers a best practices framework for teams, including cross-functional OKRs and KPIs, to streamline implementation.
+Learn More
+Download Now
+Join the Newsletter
+Introduction
+Businesses, eager to harness the potential of LLMs and Generative AI are rapidly integrating them into their operations and client facing offerings. The OWASP Gen AI Security Project helps organizations and practitioners navigate the fast-changing generative AI landscape.  With practical resources, risk strategies, and global collaboration, it enables confident innovation while reducing threats in LLMs, AI agents, and other generative AI technologies—fostering trust, compliance, and resilience.
+Who is it for?
+The OWASP Generative AI Security Project supports those shaping, building, and securing generative AI systems—including CISOs, IT leaders, security teams, engineers, developers, and policymakers. It offers practical guidance and open-source tools to manage the evolving security challenges of LLMs and generative AI.
+Affiliated Standards Organizations and Projects
+Explore the Top 10 for 2025
+Creating the OWASP Top 10 for LLM Applications list is a significant undertaking, built on the collective expertise of an international team of  more than 500 experts and over 150 active contributors. Our contributors come from diverse backgrounds, including AI companies, security companies, ISVs, cloud hyperscalers, hardware providers, and academia.
+View the
+Top 10 for LLMs 2023-24.
+Explore
+What The Industry Is Saying
+“‘The OWASP Guide to Preparing and Responding to Deepfake Events’ very clearly outlines the current threats and guidance on how to deal with some specific events. This guide acts as. . . .
+- Henry Patishman, Executive Vice President for Identity Verification Solutions,
+Regula
+“Generative AI is transforming industries at an unprecedented rate, but with that innovation comes new security challenges. The OWASP Top 10 for LLM project helps ensure that businesses are not. . . .
+- Rich Campagna, SVP, Product Management, NextGen Firewall,
+Palo Alto Networks
+¨The OWASP Top 10 for LLMs has become an indispensable resource for organizations addressing the challenges of Generative AI threats. As the project continues to evolve, it provides vital guidance. . . .
+- Itamar Golan, CEO & Co-founder of Prompt Security,
+“We’re proud to sponsor and contribute to the OWASP LLM Top 10 project, a pioneering collaboration to establish essential security standards for confident Generative AI adoption, providing actionable insights to. . . .
+- Lasso Security,
+“Snyk is proud to sponsor these latest OWASP findings that ultimately help to advance a shared mission to secure AI-generated code. Together, we’re ensuring the world’s developers have expert-accurate, effortless. . . .
+Snyk
+“HiddenLayer is proud to partner with OWASP, a leader in advancing security for AI. Their focus on tackling the biggest risks to LLMs supports our mission to secure AI and. . . .
+- Chris Sestito, CEO and Co-Founder,
+HiddenLayer
+“PromptArmor is proud to contribute our novel threat intelligence on AI risks to the OWASP Top 10 for LLMs project, and is excited to sponsor the project’s mission to create. . . .
+PromptArmor
+“The 2025 OWASP Top 10 for LLMs effectively debunks the misconception that securing GenAI is solely about protecting the model or analyzing prompts. The research offers valuable insights into how. . . .
+- Rehan Jalil, CEO,
+Securiti AI
+The unique value of this project lies in its systematic organization of threats and clear definition of necessary solutions across the LLM Ops lifecycle, particularly significant in today’s emerging GenAI. . . .
+NRI Secure
+“OWASP’s AI Security Solutions Landscape is a landmark guide for security professionals. It outlines key risks and critical controls for securing LLMs and Generative AI applications, while highlighting the innovative. . . .
+- Gilad Elyashar, Chief Product Officer,
+Aqua Security
+Frequently Asked Questions
+What is the OWASP  Top 10 for Large Language Models (LLM)?
+The OWASP Top 10 for LLMs is a list of the most critical vulnerabilities found in applications utilizing LLMs. It was created to provide developers, data scientists, and security experts with practical, actionable, and concise security guidance to navigate the complex and evolving terrain of LLM security
+Who is the Primary Audience for The Top 10 for LLMs?
+The primary audience is developers, data scientists, and security experts tasked with designing and building applications and plug-ins leveraging LLM technologies.
+How Does the Top 10 for LLMs Relate to Other Top 10 Lists?
+While the list shares DNA with vulnerability types found in other OWASP Top 10 lists, it does not simply reiterate these vulnerabilities. Instead, it delves into the unique implications these vulnerabilities have when encountered in applications utilizing LLMs. The goal is to bridge the divide between general application security principles and the specific challenges posed by LLMs
+How Was The Top 10 for LLMs Created?
+The creation of the OWASP Top 10 for LLMs list was a major undertaking, built on the collective expertise of an international team of nearly 500 experts, with over 125 active contributors. The team brainstormed and proposed potential vulnerabilities, refined these proposals down to a concise list of the ten most critical vulnerabilities, and each vulnerability was then further scrutinized and refined by dedicated sub-teams and subjected to public review.
+Will the OWASP Top 10 for LLMs be Updated in the Future?
+Yes, the first version of the list will not be the last. The team expects to update it on a periodic basis to keep pace with the state of the industry. They will be working with the broader community to push the state of the art, and creating more educational materials for a range of uses.
+Announcements
+OWASP Gen AI Security Project Announces Nine New Sponsors and Major RSA Conference Presence to Advance Generative AI Security
+April 17, 2025
+OWASP Top 10 for LLM is now  the GenAI Security Project and promoted to OWASP Flagship status
+March 26, 2025
+OWASP AI Security Guidelines offer a supporting foundation for new UK government AI Security Guidelines
+January 31, 2025
+Announcing the OWASP Gen AI Red Teaming Guide
+January 22, 2025
+In the News
+OWASP Top 10 Risks for Large Language Models: 2025 updates
+Barracuda Networks
+2024-11-20
+Blog
+OWASP Warns of Growing Data Exposure Risk from AI in New Top 10 List for LLMs
+Infosecurity Magazine
+2024-11-20
+James Coker
+OWASP Top 10 for LLM and new tooling guidance targets GenAl security
+Reversing Labs
+2024-11-14
+John P. Mello Jr
+OWASP Releases AI Security Resources
+Security Boulevard
+2024-11-08
+Juan Perez
+More News
+Events
+In-Person
+Aug
+7
+8:00 AM PDT
+Aug
+10
+5:00 PM PDT
+OWASP Gen AI Hackathon at DEFCON 33
+Join us at DEF CON 33 in Las Vegas, August 7-10th for a 3-day Agentic AI hackathon and sessions. We are in the throws of planning this event and will…
+More . .
+Webinar
+Jun
+17
+8:00 AM PDT
+Jun
+17
+9:00 AM PDT
+Why MCP Enabled Agents Are the Next Cyber Battleground
+As agentic AI systems transition from conceptual models to real-world deployments, MCP (Model Context Protocol) agents are emerging as a critical interface layer — and the next major attack vector.…
+More . .
+Featured
+,
+In-Person
+May
+27
+8:00 AM PDT
+May
+30
+5:58 PM PDT
+OWASP Global AppSec EU 2025
+From May 26-30, 2025, join over 700 cybersecurity experts at the spectacular Centre de Convencions Internacional de Barcelona (CCIB) for an event like no other. This year's reimagined conference promises…
+More . .
+Virtual
+Apr
+30
+2:00 PM PDT
+Apr
+30
+5:00 PM PDT
+Agentic Security Open Workshop
+Join us for a dynamic, community-driven workshop exploring the emerging discipline of Agentic Security through the work of the OWASP GenAI Security’s Agentic Security Initiative (ASI). This open workshop will…
+More . .
+More Events
+Project Sponsors
+100+ Supporting Organizations
+All Sponsors and Supporters
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

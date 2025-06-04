@@ -1,0 +1,1 @@
+{"url": "https://owasp.org/membership", "timestamp": "2025-06-04T11:30:53.233697", "doc_count": 4, "chunk_count": 126, "embedding_model": "bge-base", "model_info": {"name": "BAAI/bge-base-en-v1.5", "dimension": 768, "description": "Great quality, balanced (768d)", "max_length": 512}}

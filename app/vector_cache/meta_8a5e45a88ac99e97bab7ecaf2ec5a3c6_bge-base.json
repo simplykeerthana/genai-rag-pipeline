@@ -1,0 +1,1 @@
+{"url": "https://genai.owasp.org/project-mission-and-charter/", "timestamp": "2025-06-02T22:03:03.466666", "doc_count": 30, "chunk_count": 564, "embedding_model": "bge-base", "model_info": {"name": "BAAI/bge-base-en-v1.5", "dimension": 768, "description": "Great quality, balanced (768d)", "max_length": 512}}

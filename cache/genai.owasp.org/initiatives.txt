@@ -1,0 +1,162 @@
+Initiatives - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+Project Initiatives
+Initiatives
+The goal of initiatives within the project are to address specific areas, of education and research to create practical, executable resources and insights in support of the overall project goals through focused working groups. Each inititive charter is reviewed and approved as outlined in the OWASP Top 10 for LLM Project governance.
+AI Cyber Threat Intelligence
+Secure Gen AI Adoption
+Risk and Data Gathering
+AI Red Teaming and Eval
+Agentic Application Security
+AI Cyber Threat Intelligence
+Limited actionable data exists in understanding how different LLMS are being leveraged in exploit generation. This initiative aims to explore the capabilities and risks associated with generating day-one vulnerabilities’ exploits using various Large Language Models (LLMs), including those lacking ethical guardrails.
+Guidance & Resources
+Initiative Overview Blog
+Deepfake Threat Preparation and Response Guide
+Get Involved
+Slack: #team-llm_AI-cti
+Initiative Charter
+Initiative Lead(s)
+Rachel James
+Bryan Nakayama
+Join the OWASP Slack Workspace
+Working Group
+Secure AI Adoption
+The Secure AI Adoption Initiative forms a Center of Excellence (CoE) to enhance security frameworks, governance policies, and cross-departmental collaboration for Large Language Models (LLMs) and generative AI. Through strategic planning, training, and the development of standardized protocols, the initiative ensures that AI applications are adopted safely, ethically, and securely within organizations.
+Guidance & Resources
+AI Security Center of Excellence Guide
+Get Involved
+Slack: #team-llm-coe
+Initiative Lead(s)
+Scott Clinton
+Join the OWASP Slack Workspace
+Working Group
+AI Red Teaming & Evaluation
+This project establishes comprehensive AI Red Teaming and evaluation guidelines for Large Language Models (LLMs), addressing security vulnerabilities, bias, and user trust. By collaborating with partners and leveraging real-world testing, the initiative will provide a standardized methodology for AI Red Teaming, including benchmarks, tools, and frameworks to boost cybersecurity defenses.
+Guidance & Resources
+Initiative Announcement Blog
+Guide Announcement Blog
+Gen Ai Read Teaming Guide 1.0
+Get Involved
+Slack: team-llm-redteam
+Weekly Meeting - Thurs 9am PST
+Initiative Charter
+Initiative Lead(s)
+Krishna Sankar
+Working Group
+Join the OWASP Slack Workspace
+Risk and Exploit Data Gathering, Mapping
+This initiative gathers real-world data on vulnerabilities and risks associated with Large Language Models (LLMs), supporting the update of the OWASP Top 10 for LLMs. In attition this initives maintains mappings between the Top 10 for LLM and other security frameworks. Through a robust data collection methodology, the initiative seeks to enhance AI security guidelines and provide valuable insights for organizations to strengthen their LLM-based systems.
+Guidance & Resources
+Data Gathering Methology wiki
+LLM Top 10 to Security Framework Mappings (e.g. NIST, Atlas, CVE, ISO, CIS, etc)
+Get Involved
+Slack: #team-llm-datagathering-methodology
+Initiative Lead(s)
+Emmanuel Guilherme
+Working Group
+Join the OWASP Slack Workspace
+Agentic Security Initiative
+The Agentic Security Research Initiative explores the emerging security implications of agentic systems, particularly those utilizing advanced frameworks (e.g., LangGraph, AutoGPT, CrewAI) and novel  capabilities like Llama 3’s agentic features.
+Guidance & Resources
+Initiative Overview Blog
+Agentic AI – Threats and Mitigations
+Agentic AI Threat Navigator
+Multi-Agentic System Threat Modeling
+Get Involved
+Slack: team-llm-autonomous-agents
+Initiative Charter
+Initiative Lead(s)
+John Sotiropoulos
+Ron F. Del Rosario
+Working Group
+Join the OWASP Slack Workspace
+Resources
+Agentic AI – Threats and Mitigations
+Agentic AI represents an advancement in autonomous systems, increasingly enabled by large language models (LLMs) and generative AI. While agentic AI predates modern LLMs,...
+LLM and Gen AI Data Security Best Practices
+The rapid proliferation of Large Language Models (LLMs) across various industries has highlighted the critical need for advanced data security practices. As these AI...
+GenAI Red Teaming Guide
+This guide outlines the critical components of GenAI Red Teaming, with actionable insights for cybersecurity professionals, AI/ML engineers, Red Team practitioners, risk managers, adversarial...
+1
+2
+3
+…
+5
+Next
+Initiative Blogs
+Announcing the OWASP LLM and Gen AI Security Project Initiative for Securing Agentic Applications
+The OWASP Foundation is thrilled to announce the launch of the Agentic Security Initiative from the LLM and Generative AI Security Project to tackle...
+Research Initiative: AI Red Teaming & Evaluation
+Red Teaming: The Power of Adversarial Thinking in AI Security (AI hackers, tech wizards, and code sorcerers, we need you!) This is your invitation...
+Research Initiative – Securing and Scrutinizing LLMS in Exploit Generation
+Challenge Currently limited actionable data exists in understanding how different LLMS are being leveraged in exploit generation, and what mechanisms can be used to...
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

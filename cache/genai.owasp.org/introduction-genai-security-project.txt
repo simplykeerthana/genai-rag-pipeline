@@ -1,0 +1,145 @@
+Introduction, Project Background - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+GEN AI
+INTRODUCTION
+OWASP Gen AI Security Project Introduction and Background
+The Beginnings: Addressing an Urgent Security Gap
+Eighteen months ago, a small group of security professionals and AI researchers identified a major security challenge emerging in the fast-paced world of generative AI: the lack of comprehensive guidance on securing large language models (LLMs). As businesses rapidly adopted LLMs, concerns around adversarial attacks, data leakage, prompt injection, and governance risks grew. However, structured security frameworks for AI were largely absent.
+In May 2023, the
+OWASP Top 10 for LLM Application Security Project
+was launched with the mission of identifying and documenting the most critical risks associated with LLMs. The project started with a small but dedicated group of security researchers and practitioners who worked to catalog these risks and develop actionable mitigation strategies.
+Rapid Growth and Industry Adoption
+The initial release of the OWASP Top 10 for LLM was met with overwhelming support from security professionals, AI engineers, and enterprises seeking guidance. As a result, the project quickly expanded beyond risk documentation to include real-world security solutions. By early 2024, the initiative had grown to include
+over 600 contributing experts from more than 18 countries
+,
+over 130 companies
+, and
+nearly 8,000 active community members
+.
+To provide a structured approach to AI security, the project introduced
+governance frameworks, security checklists, and best practices
+for organizations integrating AI technologies. The release of the
+LLM Cybersecurity and Governance Checklist
+became an essential tool for CISOs and security teams looking to navigate AI risk management and regulatory compliance.
+Expanding the Scope: Research and Security Solutions
+As generative AI adoption accelerated, the OWASP AI Security initiative broadened its focus to tackle
+advanced security research and enterprise adoption challenges
+. This led to the launch of several key initiatives:
+AI Threat Intelligence & Red Teaming:
+Investigating adversarial threats and developing methodologies for AI-specific red teaming and penetration testing.
+Secure AI Adoption Frameworks:
+Providing businesses with structured guidance on safely deploying and maintaining AI-powered applications.
+Agentic AI Security:
+Researching security risks specific to AI agents that autonomously interact with environments, APIs, and users.
+AI Security Solutions Landscape:
+A
+quarterly updated
+resource cataloging tools and frameworks for mitigating AI security risks, widely recognized as an essential reference for organizations securing generative AI applications.
+In June 2024, OWASP launched a new AI Threat Intelligence research initiative titled
+“Securing and Scrutinizing LLMs in Exploit Generation.”
+This effort, conducted in collaboration with academic institutions and security researchers, aimed to evaluate LLM-generated exploits and assess detection capabilities in real-world applications.
+Key Milestones and Industry Recognition
+Throughout 2024 and into early 2025, OWASP continued to release critical security guidance and expand its influence. Some of the most notable milestones include:
+April 2024:
+Release of the
+OWASP CISO Checklist
+, providing a framework for organizations to establish AI security programs and manage AI risk governance.
+September 2024:
+Release of the first research from the projects’ AI Threat Intelligence Initiative publishing the
+Guide for Preparing and Responding to Deepfake Events
+.
+October 2024:
+Saw the release of both the
+OWASP AI Security Center of Excellence (CoE) Guide
+, providing a framework for organizations to establish AI security programs and manage AI risk governance as well as the first edition of the
+OWASP LLM and Generative AI Security Solutions Landscape Guide
+cataloging the emerging AI security solutions and aligning them to the LLMSecOps lifecycle and Top 10 risk for LLMs.
+November 2024:
+Introduction of the
+2025 OWASP Top 10 Risks for LLMs
+, updating industry-leading security best practices and introducing a sponsorship program to support ongoing research and education efforts.
+December 2024:
+Launch of the
+Agentic AI Security Initiative
+, dedicated to securing autonomous AI systems and agent-based LLM applications.
+January 2025:
+Release of the
+Gen AI Red Teaming Guide
+which provides a practical approach to evaluating LLM and Generative AI vulnerabilities—from the project’s
+Red Teaming Initiative.
+The OWASP Gen AI Security Project has achieved significant recognition in the cybersecurity and AI governance communities, serving as a vital resource for identifying and mitigating risks associated with large language models. This initiative has actively collaborated with esteemed organizations, including MITRE, NIST, UK government entities, and various Linux Foundation projects, ensuring a comprehensive and well-informed approach to AI security. Through these strategic partnerships, the project has integrated expert insights, industry best practices, and global policy frameworks, reinforcing its role in promoting secure and responsible AI deployment across multiple sectors.
+Global Impact and Future Outlook
+The OWASP AI Security Project has grown into a truly
+global initiative
+, with research and resources now available in
+over 8 languages
+, including Portuguese, German, French, Hindi, Persian, Simplified Chinese, Japanese, and Spanish, with more translations in progress. This localization effort ensures that organizations worldwide can access and implement AI security best practices.
+All OWASP research is
+conducted by expert volunteers
+from security and AI fields, and all outputs are
+licensed under open-source licenses
+, ensuring accessibility and community-driven improvements.
+Today, the OWASP Gen AI Security Project stands as the fastest-growing global community of security and AI experts, providing practical, peer-reviewed insights and resources. As generative AI continues to evolve, OWASP remains committed to advancing AI security research, refining risk mitigation strategies, and ensuring organizations can confidently deploy and manage secure AI systems.
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top

@@ -1,0 +1,112 @@
+Quotes Archive - OWASP Gen AI Security Project
+Skip to content
+GETTING STARTED
+Introduction
+LEARNING
+MEETINGS
+RESOURCES
+CONTRIBUTING
+GLOSSARY
+INITIATIVES
+LLM TOP 10
+LLM TOP 10 FOR 2025
+LLM TOP 10 FOR 2023/24
+AI Security Landscape
+GOVERNANCE CHECKLIST
+Threat Intelligence
+AGENTIC APP SECURITY
+Secure AI Adoption
+AI Red Teaming
+Data Security
+PROJECT
+Mission and Charter
+ROADMAP
+LEADERSHIP
+CONTRIBUTORS
+SPONSORS
+SUPPORTERS
+SPONSORSHIP
+NEWSLETTER
+OWASP PROJECT PAGE
+PROJECT WIKI
+BLOG
+ABOUT
+EVENTS
+NEWSROOM
+INDUSTRY RECOGNITION
+Governance
+CONTACT
+BRANDING
+T10 FOR GEN AI
+ABOUT
+Industry
+Industry Recognition
+We are incredibly thankful for the recognition of hard work of our community of contributors, supporters, sponsors and appreciation from analysts , press and others.
+Companies
+Other
+Sponsors
+All
+“OWASP’s AI Security Solutions Landscape is a landmark guide for security professionals. It outlines key risks and critical controls for securing LLMs and Generative AI applications, while highlighting the innovative solutions that best address these needs. Teams that leverage this guide will be armed with the most current, practical recommendations for building effective programs and comprehensive solutions sets for optimal protection.”
+– Gilad Elyashar, Aqua Chief Product Officer
+Cisco is proud to contribute to the development of OWASP initiatives like the Top 10 for LLM, ensuring that our collective efforts continue to safeguard AI apps against emerging threats. With the new OWASP LLM AI Security Solutions Landscape, organizations can find solutions that map to and protect against the Top 10, to build a comprehensive security program for AI initiatives.”
+— Anand Raghavan, VP of Engineering, AI Platforms, Cisco
+“The release of the latest OWASP Top 10 for LLMs underscores the critical need for robust AI security frameworks. This is an opportunity for businesses to reinforce their AI deployments, turning potential vulnerabilities into pillars of trust and reliability. We view this as an essential tool to bolster our continued efforts in delivering enterprise-ready AI solutions that not only meet but exceed the highest standards of security and compliance.”
+Sahil Agarwal, CEO and Co-Founder, Enkrypt AI
+“With generative AI advancing at a remarkable pace, industries are witnessing both new opportunities as well as new security risks. The OWASP Top 10 for LLMs provides a crucial framework, enabling organizations to confront current threats effectively while laying the groundwork for resilient, future-ready AI security.”
+– Tom Bonner, VP of Research at HiddenLayer
+“HiddenLayer is proud to partner with OWASP, a leader in advancing security for AI. Their focus on tackling the biggest risks to LLMs supports our mission to secure AI and accelerate trust in these transformative technologies. Through our collaboration, we aim to advance progress in education, research, and industry standards.”
+— Chris Sestito, CEO and Co-Founder, HiddenLayer
+“We’re proud to sponsor and contribute to the OWASP LLM Top 10 project, a pioneering collaboration to establish essential security standards for confident Generative AI adoption, providing actionable insights to address emerging risks in LLMs. This initiative reflects Lasso’s commitment to advancing GenAI solutions that address security vulnerabilities in the latest LLM applications.”
+– Lasso Security
+The unique value of this project lies in its systematic organization of threats and clear definition of necessary solutions across the LLM Ops lifecycle, particularly significant in today’s emerging GenAI security market. What’s especially noteworthy is how the project distinctly organizes LLMSecOps separately from LLMOps, enabling security professionals to clearly understand the protective measures required at each development phase. The solutions guide bridges the gap between theory and practice, providing organizations with an actionable pathway to achieve GenAI security.
+“Generative AI is transforming industries at an unprecedented rate, but with that innovation comes new security challenges. The OWASP Top 10 for LLM project helps ensure that businesses are not only prepared for today’s threats but are future-ready, with a strong foundation to handle tomorrow’s AI-driven vulnerabilities.” –
+Rich Campagna, SVP, Product Management, NextGen Firewall – Palo Alto Networks
+“In conversations with customers it’s clear that the OWASP Top Ten for LLMs has become an industry standard for mapping and mitigating LLM application security risks. We’re proud to support this project and excited to see its continued evolution in partnership with the open-source cybersecurity and AI communities.”
+– Oliver Friedrichs, CEO & Cofounder, Pangea
+“The OWASP Top 10 for LLM serves as a vital compass in navigating the ever-evolving AI security challenges. Its structured approach to threat classification and investigation enables organizations to take concrete steps in securing their LLM implementations. The framework effectively bridges the crucial gap between understanding AI vulnerabilities and implementing practical security measures.”
+– Dor Sarig, Co-Founder & CEO, Pillar Security
+The OWASP Top 10 for LLM Guide provides essential, actionable guidance, empowering organizations to meet AI security standards while keeping pace with Generative AI’s rapid adoption and evolution. We’re proud to have supported this project from the beginning and remain committed as it expands to help organizations navigate the complexities of AI security.
+Itamar Golan, CEO & Co-founder of Prompt Security
+¨The OWASP Top 10 for LLMs has become an indispensable resource for organizations addressing the challenges of Generative AI threats. As the project continues to evolve, it provides vital guidance to help organizations stay ahead in this rapidly shifting landscape. At Prompt Security, we’re proud to have supported this initiative from the start and are excited to deepen our commitment as an official sponsor.¨
+– Itamar Golan, CEO & Co-founder of Prompt Security
+“PromptArmor is proud to contribute our novel threat intelligence on AI risks to the OWASP Top 10 for LLMs project, and is excited to sponsor the project’s mission to create a universal, up-to-date standard by which to think about AI Application Risks.”
+“‘The OWASP Guide to Preparing and Responding to Deepfake Events’ very clearly outlines the current threats and guidance on how to deal with some specific events. This guide acts as a great starting point for organizations to understand the threat and begin developing their own internal strategies.” –
+Henry Patishman, executive vice president for identity verification solutions at Regula
+“OWASP has done an outstanding job in raising awareness about the unknown risks of AI adoption. The OWASP Top 10 for LLMs emphasizes that AI security is about protecting the entire ‘Data+AI System’—not just individual models or prompts,”
+said Rehan Jalil, CEO of Securiti AI.
+“At Securiti, we are dedicated to empowering the community with essential capabilities that mitigate the OWASP Top 10 risks for LLMs.”
+“The 2025 OWASP Top 10 for LLMs effectively debunks the misconception that securing GenAI is solely about protecting the model or analyzing prompts. The research offers valuable insights into how data flows through the entire application, highlighting where vulnerabilities can arise. To truly safeguard AI systems, security must be enforced at every step in the data and AI pipeline, from the source data to user interactions within the app. A comprehensive, system-level security approach is essential to mitigate risks and build trust in AI,” said Rehan Jalil, CEO of Securiti AI.
+PRIVACY
+NEWSLETTER
+CONTACT
+Overview
+LLM Top 10
+Initiatives
+Landscape
+Glossary
+Roadmaps
+Resources
+Sponsors
+Sponsorship
+Contribute
+Newsroom
+Events
+Meetings
+Leadership
+Volunteer Jobs
+OWASP and the OWASP logo are trademarks of the OWASP Foundation, Inc. Unless otherwise specified, all content on the site is Creative Commons Attribution-ShareAlike v4.0 and provided without
+warranty of service or accuracy. For more information, please refer to our
+General Disclaimer
+.
+– Copyright ©
+2025
+OWASP Foundation, Inc.
+Scroll to Top
+OWASP Gen AI Security Project
+Proudly powered by WordPress
+Theme: Astra.
+Loading Comments...
+Write a Comment...
+Email (Required)
+Name (Required)
+Website

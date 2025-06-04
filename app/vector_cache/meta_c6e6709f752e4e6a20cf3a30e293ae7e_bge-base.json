@@ -1,0 +1,1 @@
+{"url": "https://genai.owasp.org/introduction-genai-security-project/", "timestamp": "2025-06-02T21:46:00.045150", "doc_count": 30, "chunk_count": 564, "embedding_model": "bge-base", "model_info": {"name": "BAAI/bge-base-en-v1.5", "dimension": 768, "description": "Great quality, balanced (768d)", "max_length": 512}}
