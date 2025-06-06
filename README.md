@@ -95,7 +95,7 @@ curl -X POST "http://localhost:8000/ask" \
     "query": "What are the main security risks in generative AI?",
     "url": "https://genai.owasp.org",
     "llm_mode": "gemini",
-    "api_key": "AIzaSyD7oqlfEIVqA5MN94o36JhvjCDOWKJ4nt8"
+    "api_key": ""
   }'
 ```
 
