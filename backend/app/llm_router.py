@@ -27,6 +27,40 @@ tokenizer = None
 llm = None
 device = None
 
+# Replace the hardcoded MODEL_PATH with dynamic detection
+def detect_mistral_model_path():
+    """Automatically detect Mistral model path"""
+    # Base paths to check
+    base_paths = [
+        "/Users/keerthana/genai-rag-pipeline/models",
+        "/models", 
+        "./models",
+        "../models",
+        os.path.join(os.path.dirname(__file__), "..", "..", "models")
+    ]
+    
+    for base_path in base_paths:
+        if os.path.exists(base_path):
+            mistralai_path = os.path.join(base_path, "mistralai")
+            if os.path.exists(mistralai_path):
+                # Look for any Mistral model folder
+                for item in os.listdir(mistralai_path):
+                    item_path = os.path.join(mistralai_path, item)
+                    if os.path.isdir(item_path) and "mistral" in item.lower():
+                        print(f"[LLM_ROUTER] Auto-detected Mistral model at: {item_path}")
+                        return item_path
+                
+                # If no specific model folder, check if mistralai itself contains model files
+                if any(f.endswith(('.json', '.bin', '.safetensors', '.gguf')) for f in os.listdir(mistralai_path)):
+                    print(f"[LLM_ROUTER] Auto-detected Mistral model at: {mistralai_path}")
+                    return mistralai_path
+    
+    print("[LLM_ROUTER] Could not auto-detect Mistral model path")
+    return None
+
+# Or if there's a specific model folder inside mistralai, update accordingly
+# MODEL_PATH = "/Users/keerthana/genai-rag-pipeline/models/mistralai/[actual-model-folder-name]"
+
 # Helper functions from patch
 def get_model_type(model_path):
     """Detect model type based on file extension or directory structure"""
@@ -95,94 +129,16 @@ def load_transformer_model():
     if model is not None and tokenizer is not None:
         return True  # Already loaded
     
-    # Enhanced debugging
-    print("[LLM_ROUTER] ========== DEBUG INFO ==========")
-    print(f"[LLM_ROUTER] TRANSFORMER_MODEL_PATH: {TRANSFORMER_MODEL_PATH}")
-    print(f"[LLM_ROUTER] Current working directory: {os.getcwd()}")
-    print(f"[LLM_ROUTER] Python path: {sys.path[:3]}...")
+    # Use dynamic model detection instead of hardcoded path
+    model_path = detect_mistral_model_path() or TRANSFORMER_MODEL_PATH
     
-    # Check /models directory
-    if os.path.exists("/models"):
-        print("[LLM_ROUTER] /models directory contents:")
-        try:
-            models_contents = os.listdir("/models")
-            for item in models_contents[:5]:  # Show first 5 items
-                item_path = os.path.join("/models", item)
-                if os.path.isdir(item_path):
-                    print(f"[LLM_ROUTER]   📁 {item}/")
-                else:
-                    print(f"[LLM_ROUTER]   📄 {item}")
-        except Exception as e:
-            print(f"[LLM_ROUTER]   Error listing /models: {e}")
-    else:
-        print("[LLM_ROUTER] ❌ /models directory does not exist!")
-    
-    # Check if the model path exists
-    model_path = TRANSFORMER_MODEL_PATH
-    print(f"[LLM_ROUTER] Checking model path: {model_path}")
+    print(f"[LLM_ROUTER] Using model path: {model_path}")
     
     if not os.path.exists(model_path):
         print(f"[LLM_ROUTER] ❌ Model path does not exist: {model_path}")
-        
-        # Additional debugging
-        parent_dir = os.path.dirname(model_path)
-        print(f"[LLM_ROUTER] Parent directory: {parent_dir}")
-        print(f"[LLM_ROUTER] Parent exists: {os.path.exists(parent_dir)}")
-        
-        if os.path.exists(parent_dir):
-            print(f"[LLM_ROUTER] Contents of {parent_dir}:")
-            try:
-                for item in os.listdir(parent_dir)[:10]:
-                    print(f"[LLM_ROUTER]   - {item}")
-            except Exception as e:
-                print(f"[LLM_ROUTER]   Error listing parent: {e}")
-        
-        # Check for alternative paths
-        alt_paths = [
-            "/models/mistral-7b-instruct-v3",
-            "/app/models/mistral-7b-instruct-v3",
-            "./models/mistral-7b-instruct-v3",
-            "../models/mistral-7b-instruct-v3"
-        ]
-        
-        print("[LLM_ROUTER] Checking alternative paths:")
-        for alt_path in alt_paths:
-            exists = os.path.exists(alt_path)
-            print(f"[LLM_ROUTER]   {alt_path}: {'✅' if exists else '❌'}")
-            if exists:
-                print(f"[LLM_ROUTER]   Found model at: {alt_path}")
-                model_path = alt_path
-                break
-        else:
-            return False
+        return False
     
-    # If we found the model path, check its contents
-    if os.path.exists(model_path):
-        print(f"[LLM_ROUTER] ✅ Model path exists: {model_path}")
-        print("[LLM_ROUTER] Model directory contents:")
-        try:
-            files = os.listdir(model_path)
-            config_files = [f for f in files if f.endswith('.json')]
-            model_files = [f for f in files if f.endswith(('.safetensors', '.bin'))]
-            
-            print(f"[LLM_ROUTER]   Config files ({len(config_files)}): {config_files[:3]}")
-            print(f"[LLM_ROUTER]   Model files ({len(model_files)}): {model_files[:3]}")
-            
-            # Check for required files
-            has_config = 'config.json' in files
-            has_tokenizer = any('tokenizer' in f for f in files)
-            has_model = len(model_files) > 0
-            
-            print(f"[LLM_ROUTER]   Has config.json: {'✅' if has_config else '❌'}")
-            print(f"[LLM_ROUTER]   Has tokenizer files: {'✅' if has_tokenizer else '❌'}")
-            print(f"[LLM_ROUTER]   Has model files: {'✅' if has_model else '❌'}")
-            
-        except Exception as e:
-            print(f"[LLM_ROUTER]   Error checking contents: {e}")
-    
-    print("[LLM_ROUTER] ================================")
-    
-    # Continue with the rest of the loading code...
+    # Rest of the loading code continues...
     try:
         print("[LLM_ROUTER] Loading transformer model...")
         import torch

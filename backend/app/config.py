@@ -1,24 +1,18 @@
 import os
 
-# Get the current file's directory (app directory)
-CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
-# Get the backend directory
-BACKEND_DIR = os.path.dirname(CURRENT_DIR)
-# Get the project root directory (gen-ai-OWASP-rag)
-PROJECT_ROOT = os.path.dirname(BACKEND_DIR)
+# Use relative paths that work across different environments
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODELS_DIR = os.path.join(BASE_DIR, "..", "models")
+
+# Dynamic model detection - these are fallbacks if auto-detection fails
+TRANSFORMER_MODEL_PATH = os.path.join(MODELS_DIR, "mistralai", "Mistral-7B-Instruct-v0.2")
+LOCAL_MODEL_PATH = os.path.join(MODELS_DIR, "llama", "model.gguf")  # Adjust as needed
 
 # Mode: 'local', 'openai', 'gemini', or 'transformers'
 LLM_MODE = "transformers"
 
 # API keys
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "your-openai-or-gemini-api-key-here")
-
-# Local LLM (GGUF for llama.cpp)
-LOCAL_MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "TinyLlama-1.1B-Chat-v1.0.Q4_K_M.gguf")
-
-# Hugging Face Transformers model (like Phi-4)
-# The model is likely in the models folder at project root
-TRANSFORMER_MODEL_PATH = os.path.join(PROJECT_ROOT, "models", "mistral-7b-instruct-v3")
 
 # Optional: Debug prints
 if __name__ == "__main__":
