@@ -25,7 +25,7 @@ yarn-error.log*
 /frontend/dist/
 /frontend/build/
 
-# Cache directories (but keep the cache structure)
+# Cache directories
 /cache/vector_stores/
 /backend/cache/
 *.faiss
@@ -58,12 +58,7 @@ Thumbs.db
 *.swo
 *~
 
-
-
-
-
-
-.cache/*.temp*.tmp# Temporary files# Temporary files
+# Temporary files
 *.tmp
 *.temp
 .cache/
