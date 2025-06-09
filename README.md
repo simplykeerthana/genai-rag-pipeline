@@ -82,11 +82,8 @@ cd genai-rag-pipeline
 ### 2. Download Models (Automated)
 
 ```bash
-# Make the script executable
-chmod +x scripts/download_models.sh
-
-# Download Mistral model
-./scripts/download_models.sh
+# Download Mistral-7B-Instruct-v0.2 model
+python download_models.py
 ```
 
 ### 3. Backend Setup
@@ -495,6 +492,39 @@ Clear cache (optionally filtered by URL/model).
   "suggestions": ["Try reducing max_pages", "Check your API key"]
 }
 ```
+
+## Examples
+
+### Simple question with local Mistral model
+
+```bash
+curl -X POST http://localhost:8000/ask \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What is gen ai securitye?",
+    "url": "https://genai.owasp.org",
+    "llm_mode": "transformers",
+    "max_pages": 3,
+    "top_k": 5
+  }'
+```
+
+### simple question with gemini api
+# Using Google Gemini model
+curl -X POST http://localhost:8000/ask \
+  -H "Content-Type: application/json" \
+  -d '{
+    "query": "What are the benefits of using FastAPI?",
+    "url": "https://genai.owasp.org",
+    "llm_mode": "gemini",
+    "max_pages": 4,
+    "top_k": 4,
+    "api_key": "your-gemini-api-key-here"
+  }'
+
+  ## Results
+
+  
 
 ## 🔧 Troubleshooting
 
