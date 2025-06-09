@@ -509,6 +509,12 @@ curl -X POST http://localhost:8000/ask \
   }'
 ```
 
+https://github.com/user-attachments/assets/38ff9ce2-20a5-4eeb-b3d1-afca050f581d
+
+
+
+
+
 ### simple question with gemini api
 # Using Google Gemini model
 curl -X POST http://localhost:8000/ask \
