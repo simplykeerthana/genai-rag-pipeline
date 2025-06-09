@@ -32,7 +32,7 @@ yarn-error.log*
 *.pkl
 
 # Large model files (users should download these)
-/models/mistralai/
+
 /models/llama/
 *.bin
 *.safetensors
